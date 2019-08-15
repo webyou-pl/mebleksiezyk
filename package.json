@@ -1,15 +1,15 @@
 {
-  "name": "template-webyou",
+  "name": "mebleksiezyk",
   "version": "1.0.0",
-  "description": "template-webyou",
+  "description": "mebleksiezyk",
   "main": "index.js",
   "dependencies": {
     "gulp-autoprefixer": "^6.0.0",
     "gulp-sass": "^4.0.2"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.5",
-    "gulp": "^4.0.1",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
     "gulp-connect-php": "^1.0.3",
     "gulp-sourcemaps": "^2.6.5"
   },
@@ -18,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webyou-pl/template-webyou.git"
+    "url": "git+https://github.com/webyou-pl/mebleksiezyk.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/webyou-pl/template-webyou.git"
+    "url": "https://github.com/webyou-pl/mebleksiezyk.git"
   },
-  "homepage": "https://github.com/webyou-pl/template-webyou.git"
+  "homepage": "https://github.com/webyou-pl/mebleksiezyk.git"
 }

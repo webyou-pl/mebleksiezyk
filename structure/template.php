@@ -1,5 +1,5 @@
 ﻿<?php
-$address = 'https://'.$_SERVER['SERVER_NAME'].'/template-webyou';
+$address = 'https://'.$_SERVER['SERVER_NAME'].'/mebleksiezyk';
 
 $template_start_head = ' 
 <head>

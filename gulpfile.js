@@ -25,7 +25,7 @@ gulp.task('watch', function(){
 
 gulp.task('browser-sync', () => {
   browserSync.init({
-    proxy: 'http://localhost/template-webyou/'
+    proxy: 'http://localhost/mebleksiezyk/'
   });
 
   gulp.watch('**/*.php').on("change", reload);
