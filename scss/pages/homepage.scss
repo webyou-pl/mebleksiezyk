@@ -1,0 +1,61 @@
+#main {
+
+    
+    background-image: url("../../../mebleksiezyk/images/backgrounds/main/shutterstock.jpg");
+    height: 100vh;
+    z-index: 99;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+    .main__black-animation {
+        background: black;
+        background-size: cover;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        animation: fadeOut 12s;
+        animation-fill-mode: forwards;
+
+
+        @keyframes fadeOut {
+            from {
+                left: 0;
+                opacity: 1;
+            }
+
+            to {
+                left: 100%;
+                opacity: 0;
+
+            }
+        }
+    }
+    
+    .main__logo{
+        
+        max-width: 100%;
+        // width: 100%;
+        max-height: auto;
+        position: absolute;
+        display: flex;
+        top:66%;
+        left: 70%;
+        animation: fadeIn 4s;
+        animation-fill-mode: forwards;
+         @keyframes fadeIn {
+                 from {
+                     
+                     opacity: 0;
+                 }
+
+                 to {
+                     
+                     opacity: 1;
+
+                 }
+             }
+    }
+
+}

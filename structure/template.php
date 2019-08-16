@@ -37,35 +37,59 @@ $template_end_body = '
 ';
 
 $nav_menu = '
-    <nav id="menu" class="">
-        <ul>
-            <li><a href="'.$address.'/index.php">Strona główna</a></li>
-            <li><a href="'.$address.'/subpages/nazwa.php">Link</a></li>
-        </ul>
-    </nav>
+<nav class="navbar navbar-expand-lg navbar-dark static-top" id="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+         
+        </a>
+    <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+       
+        <li class="nav-item">
+          <a class="nav-link" href="#">O Nas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Oferta</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Referencje</a>
+        </li>
+                <li class="nav-item">
+          <a class="nav-link" href="#">Kontakt</a>
+        </li>
+                <li class="nav-item">
+          <a class="nav-link" href="#">Partnerzy</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 ';
 
-$cta = '
-    <section id="cta">
-        <div class="trianglesInImages-up"></div>
-            <div class="container text-center">
-                <p class="mb-5 font-weight-bold">Donec commodo viverra metus a iaculis. Cras scelerisque risus ac mi posuere, sit amet sollicitudin magna ultricies. Nunc elementum efficitur lectus in mattis. Ut feugiat aliquet rutrum. Praesent condimentum velit ut urna blandit scelerisque. Duis condimentum tortor purus, in sodales ante ornare ac. Sed sit amet sem dapibus, pharetra quam id, interdum risus.</p>
-                <a href="#!" class="btn btn-primary">kontakt</a>
-            </div>
-        <div class="trianglesInImages-down"></div>
-    </section>
-';
+// $cta = '
+//     <section id="cta">
+//         <div class="trianglesInImages-up"></div>
+//             <div class="container text-center">
+//                 <p class="mb-5 font-weight-bold">Donec commodo viverra metus a iaculis. Cras scelerisque risus ac mi posuere, sit amet sollicitudin magna ultricies. Nunc elementum efficitur lectus in mattis. Ut feugiat aliquet rutrum. Praesent condimentum velit ut urna blandit scelerisque. Duis condimentum tortor purus, in sodales ante ornare ac. Sed sit amet sem dapibus, pharetra quam id, interdum risus.</p>
+//                 <a href="#!" class="btn btn-primary">kontakt</a>
+//             </div>
+//         <div class="trianglesInImages-down"></div>
+//     </section>
+// ';
 
-$footer = '
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <p>footer</p>
-                </div>
-        </div>
-    </footer>
-';
+// $footer = '
+//     <footer id="footer">
+//         <div class="container">
+//             <div class="row">
+//                 <div class="col-12">
+//                     <p>footer</p>
+//                 </div>
+//         </div>
+//     </footer>
+// ';
 
 $socialMedia_fix = '
     
