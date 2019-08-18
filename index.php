@@ -15,13 +15,11 @@
             </div> -->
         </header>
 
-        <section id="main" class="main"> 
-
-            <div class="conteiner">
+        <section id="main" class="main">
+            <!-- <div class="conteiner">
                 <div class="row">
-
                  </div>
-            </div>
+            </div> -->
         </section>
         <div>
             <img src="images/logo/ksiezyk_meble_logo_white.png" class="img-fluid main__logo" id="logo" onclick="startAnimation() startA()">
