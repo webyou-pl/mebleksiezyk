@@ -15,18 +15,17 @@
             </div> -->
         </header>
 
-        <section id="main" class="main">
-          
+        <section id="main" class="main"> 
+
             <div class="conteiner">
                 <div class="row">
-                    <div>
-                        <img src="images/logo/ksiezyk_meble_logo_white.png" style="height:auto; width:250px;" class="img-fluid main__logo" id="logo" onclick="startAnimation() startA()">
-                    </div>
-                    
-                </div>
+
+                 </div>
             </div>
         </section>
-
+        <div>
+            <img src="images/logo/ksiezyk_meble_logo_white.png" class="img-fluid main__logo" id="logo" onclick="startAnimation() startA()">
+        </div>
 
         <?php //echo $cta;
         // echo $footer;
