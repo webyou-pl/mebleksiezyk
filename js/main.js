@@ -29,15 +29,16 @@ window.onload = function () {
 // Otwarcie głównej strony
 
 const logoButton = document.getElementById('logo');
+const hoverMain = document.getElementById('hover-main');
 
-logoButton.addEventListener("click", startAnimation);
+hoverMain.addEventListener("click", startAnimation);
 
 function startAnimation() {
         const backgroundView = document.getElementById("main");
         backgroundView.classList.add('main-background');
         logoButton.classList.remove('main__logo');
         logoButton.classList.add('main__logo-after');
-    
+        hoverMain.remove();
 }
 // logoButton.addEventListener("click", startA);
 // function startA() {

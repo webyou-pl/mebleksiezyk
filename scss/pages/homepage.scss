@@ -5,6 +5,47 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background: black;
+    
+    &::after{
+        content: '';
+        transition: all 1s ease-in-out;
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: fixed;
+        z-index: 2;
+        opacity: 0;
+        background-image:
+        radial-gradient(ellipse at center, 
+        rgba(black, 0) 0%,
+        rgba(black, 1) 20%,
+        rgba(black, 1) 100%),
+        url("../../../mebleksiezyk/images/backgrounds/main/shutterstock.jpg");
+    }
+
+}
+#hover-main{
+    content: '';
+    width: $logo-size;
+    height: $logo-size;
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+    cursor: pointer;
+
+    &:hover{
+        & + .main{
+            &::after{
+                opacity: 1;
+            }
+        }
+    }
 }
 
 .main-background {
@@ -14,7 +55,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    animation: fadeOut 10s;
+    animation: fadeOut 8s;
     animation-fill-mode: forwards;
     @keyframes fadeOut {
         from {
@@ -39,10 +80,6 @@
         transform: translate(-50%, -50%);
         cursor: pointer;
         transition: width 2s;
-
-        &:hover {
-            width: calc(#{$logo-size} * 1.1) !important;
-        }
     }
 
     .main__logo-after {
