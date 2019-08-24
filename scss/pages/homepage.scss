@@ -10,7 +10,7 @@
 .main-background {
     background-image: url("../../../mebleksiezyk/images/backgrounds/main/shutterstock.jpg");
     height: 100vh;
-    z-index: -10;
+    z-index: 1;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -26,50 +26,48 @@
     }
 }
 
-.main__logo {
-    position: absolute;
-    display: block;
-    z-index: 10;
-    width: $logo-size;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
-    transition: width 1s;
-    animation: fadeIn 4s;
-    animation-fill-mode: forwards;
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-        }
-        to {
-            opacity: 1;
-        }
-    }
-    &:hover {
-        width: calc(#{$logo-size} * 1.1) !important;
-    }
-}
 
-.main__logo-after {
-    z-index: 90;
-    position: absolute;
-    animation: movment 4s;
-    animation-fill-mode: forwards;
-    transform: translate(-50%, -50%);
-    transition: width 1s;
-    @keyframes movment {
-        from {
-            transform: translate(-50%, -50%);
-            left: 50%;
-            top: 50%;
-            width: $logo-size;
-        }
-        to {
-            transform: translate(-50%, -50%);
-            width: calc(#{$logo-size} * 2.5);
-            top: 50%;
-            left: calc(100vw - (#{$logo-size} * 2.5) / 2 - 50px);
+
+
+    .main__logo {
+        position: absolute;
+        display: block;
+        z-index: 10;
+        width: $logo-size;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        transition: width 2s;
+
+        &:hover {
+            width: calc(#{$logo-size} * 1.1) !important;
         }
     }
-}
+
+    .main__logo-after {
+        z-index: 90;
+        position: absolute;
+        animation: movment 5s;
+        animation-fill-mode: forwards;
+        transform: translate(-50%, -50%);
+        transition: width 2s;
+
+        @keyframes movment {
+            from {
+                transform: translate(-50%, -50%);
+                left: 50%;
+                top: 50%;
+                width: $logo-size;
+            }
+
+            to {
+                transform: translate(-50%, -50%);
+                width: calc(#{$logo-size} * 2.5);
+                top: 50%;
+                left: calc(100vw - (#{$logo-size} * 2.5) / 2 - 50px);
+            }
+        }
+    }
+
+
