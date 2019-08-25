@@ -34,9 +34,12 @@ logoButton.addEventListener("click", startAnimation);
 
 function startAnimation() {
         const backgroundView = document.getElementById("main");
-        backgroundView.classList.add('main-background');
+    const backgroundCircle = document.querySelector("circle:hover"); 
+        backgroundView.classList.remove('main-black'); // trzeba zamiast remove trzeba dodac animacje z css
         logoButton.classList.remove('main__logo');
         logoButton.classList.add('main__logo-after');
+        // backgroundCircle.remove;
+
     
 }
 // logoButton.addEventListener("click", startA);

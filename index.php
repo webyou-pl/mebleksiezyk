@@ -15,14 +15,21 @@
             </div> -->
         </header>
 
-        <section id="main" class="main">
- 
-        </section>
-            <div class="main_logo-circle">
-                <div>
+        <!-- <section id="main" class="main"> -->
+            <section>
+                <div   class="main">
+
+                <div class="circle" id="circle">    
+                    <div>
                     <img src="images/logo/ksiezyk_meble_logo_white.png" class="img-fluid main__logo" id="logo" onclick="startAnimation() startA()">
-                </div>
-            </div>
+                </div></div>
+                    <div class="main-black" id="main"></div>
+                
+
+            
+        </section>
+         
+           
         <?php //echo $cta;
         // echo $footer;
         // echo $template_copyright;

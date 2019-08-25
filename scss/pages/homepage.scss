@@ -1,73 +1,106 @@
 .main {
+    // background-color: rgba(0, 0, 0, 0.61);
+    background: url("../../../mebleksiezyk/images/backgrounds/main/shutterstock.jpg");
     height: 100vh;
-    z-index: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    background: black;
+    position: relative;
+    background-blend-mode: multiply;
+    // background-blend-mode:darken;
+ .main-black {
+     height: 100vh;
+     background-color: black;
+     height: 100vh;
+    //  animation: fadeOut 5s;
+    //  animation-fill-mode: forwards;
+
+    //  @keyframes fadeOut {
+    //      from {
+    //          opacity: 1;
+
+    //      }
+
+    //      to {
+    //          opacity: 0;
+
+    //      }
+    //  }
+
+ }
+.circle {
+    position: absolute;
+    
+    width: calc(#{$logo-size} * 1.5);
+    height: calc(#{$logo-size} * 1.5);
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+    &:hover {
+         background-image: url("../../../mebleksiezyk/images/backgrounds/main/shutterstock.jpg");
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: 512%;
+        }
+         .main__logo {
+             position: absolute;
+             display: block;
+             z-index: 20;
+             width: $logo-size;
+             left: 50%;
+             top: 50%;
+             transform: translate(-50%, -50%);
+             cursor: pointer;
+             transition: width 2s;
+
+             &:hover {
+                 width: calc(#{$logo-size} * 1.1) !important;
+             }
+         }
+          .main__logo-after {
+
+              position: absolute;
+              z-index: 20;
+              animation: movment 5s;
+              animation-fill-mode: forwards;
+              transform: translate(-50%, -50%);
+              transition: width 2s;
+
+              @keyframes movment {
+                  from {
+                      transform: translate(-50%, -50%);
+                      left: 50%;
+                      top: 50%;
+                      width: $logo-size;
+                  }
+
+                  to {
+                      transform: translate(-50%, -50%);
+                      width: calc(#{$logo-size} * 2.5);
+                      top: 50%;
+                      left: calc(100vw - (#{$logo-size} * 2.5) / 2 - 50px);
+                  }
+              }
+          }
+    }
+
+   
+            
+   
+
+   
+
+
+
+
 }
 
-.main-background {
-    background-image: url("../../../mebleksiezyk/images/backgrounds/main/shutterstock.jpg");
-    height: 100vh;
-    z-index: 1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    animation: fadeOut 10s;
-    animation-fill-mode: forwards;
-    @keyframes fadeOut {
-        from {
-            filter: brightness(0%);
-        }
-        to {
-            filter: brightness(95%);
-        }
-    }
-}
 
 
 
-
-    .main__logo {
-        position: absolute;
-        display: block;
-        z-index: 10;
-        width: $logo-size;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        cursor: pointer;
-        transition: width 2s;
-
-        &:hover {
-            width: calc(#{$logo-size} * 1.1) !important;
-        }
-    }
-
-    .main__logo-after {
-        z-index: 90;
-        position: absolute;
-        animation: movment 5s;
-        animation-fill-mode: forwards;
-        transform: translate(-50%, -50%);
-        transition: width 2s;
-
-        @keyframes movment {
-            from {
-                transform: translate(-50%, -50%);
-                left: 50%;
-                top: 50%;
-                width: $logo-size;
-            }
-
-            to {
-                transform: translate(-50%, -50%);
-                width: calc(#{$logo-size} * 2.5);
-                top: 50%;
-                left: calc(100vw - (#{$logo-size} * 2.5) / 2 - 50px);
-            }
-        }
-    }
 
 
