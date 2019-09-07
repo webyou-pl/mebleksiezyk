@@ -53,16 +53,16 @@ $nav_menu = '
                     <a class="nav-link" href="#secondary">O nas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Na-wymiar">Na wymiar</a>
+                    <a class="nav-link" href="#na-wymiar">Na wymiar</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Uslugi">Usługi</a>
+                    <a class="nav-link" href="#uslugi">Usługi</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Realizacje">Realizacje</a>
+                    <a class="nav-link" href="#galeria">Realizacje</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Kontakt">Kontakt</a>
+                    <a class="nav-link" href="#footer">Kontakt</a>
                 </li>
             </ul>
     </div>

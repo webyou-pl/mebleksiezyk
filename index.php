@@ -56,7 +56,7 @@
                             <img src="../mebleksiezyk/images/sections/onas/rzybornik.jpg">
                         </div>
                     </div>
-            </div>            
+            </div>
         </section>
 
 
@@ -67,7 +67,39 @@
         </section> -->
     </section>
 
+        <section id="na-wymiar" class="text-white">
+            <div class="container">
+                <h2 class="h1">Meble na wymiar</h2>
+                <div class="rwo">
+                    <div class="col-12 col-md">1</div>
+                    <div class="col-12 col-md">2</div>
+                    <div class="col-12 col-md">3</div>
+                    <div class="col-12 col-md">4</div>
+                </div>
+            </div>
+        </section>
 
+
+        <section id="uslugi">
+            <div class="container">
+                <h2 class="h1">Naszym klientom zapewniamy</h2>
+                <div class="rwo">
+                    <div class="col-12 col-md">1</div>
+                    <div class="col-12 col-md">2</div>
+                    <div class="col-12 col-md">3</div>
+                    <div class="col-12 col-md">4</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <div class="container">
+                <h2 class="h1">Przykładowe realizacje</h2>
+                <div class="gallery row">
+                    <div class="gallery__item col-12 col-md-6"></div>
+                </div>
+            </div>
+        </section>
 
         <footer id="footer">
             <div class="container">
@@ -84,5 +116,5 @@
         </footer>
 
         <?= $template_end_body; ?>
-     </body>
+    </body>
 </html>
