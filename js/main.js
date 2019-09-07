@@ -30,15 +30,29 @@ window.onload = function () {
 
 const logoButton = document.getElementById('logo');
 const hoverMain = document.getElementById('hover-main');
+const backgroundView = document.getElementById("main");
+const secondary = document.getElementById("secondary");
+
 
 hoverMain.addEventListener("click", startAnimation);
 
 function startAnimation() {
-        const backgroundView = document.getElementById("main");
         backgroundView.classList.add('main-background');
         logoButton.classList.remove('main__logo');
         logoButton.classList.add('main__logo-after');
         hoverMain.remove();
+        secondary.style.display ="inline";
+}
+
+
+window.onload = function (){
+    this.setInterval(function (){
+        backgroundView.classList.add('main-background');
+        logoButton.classList.remove('main__logo');
+        logoButton.classList.add('main__logo-after');
+        hoverMain.remove();
+        secondary.style.display ="inline";
+    }, 3000);
 }
 // logoButton.addEventListener("click", startA);
 // function startA() {
