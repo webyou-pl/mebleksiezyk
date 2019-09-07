@@ -7,7 +7,7 @@
     <?php echo $template_start_head; ?>
     <title>Meble Księżyk</title>
     <?php echo $template_end_head; ?>
-    <body>
+    <body data-spy="scroll" data-target="#navbar" data-offset="400">
         <header id="header">
             <?php echo $nav_menu; ?>
             <!-- <div id="slider" class="text-center">
@@ -25,18 +25,6 @@
             </div>
         </div>
     </section>
-    <!-- <div data-spy="scroll" data-target="#navbar" data-offset="0">
-        <h4 id="fat">@fat</h4>
-        <p>...</p>
-        <h4 id="mdo">@mdo</h4>
-        <p>...</p>
-        <h4 id="one">one</h4>
-        <p>...</p>
-        <h4 id="two">two</h4>
-        <p>...</p>
-        <h4 id="three">three</h4>
-        <p>...</p>
-    </div> -->
     <section id="secondary">
         <section id="secondary__onas">
             <div class="secondary__title">
@@ -81,12 +69,20 @@
 
 
 
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <?= $logo_svg; ?>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <p>tel: <a href="#!">000 123 345 567</a></p>
+                        <p>Email: <a href="#!">adres@domena.com.pl</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-
-        <?php //echo $cta;
-        // echo $footer;
-        // echo $template_copyright;
-        // echo $socialMedia_fix;
-     echo $template_end_body; ?>
+        <?= $template_end_body; ?>
      </body>
 </html>
