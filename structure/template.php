@@ -37,35 +37,34 @@ $template_end_body = '
 ';
 
 $nav_menu = '
-<nav class="navbar navbar-expand-lg navbar-dark static-top" id="navbar">
-  <div class="container">
-    <a class="navbar-brand" href="#">
-         
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">LOGO</a>
+        <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </a>
-    <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-       
-        <li class="nav-item">
-          <a class="nav-link" href="#">O Nas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Oferta</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Referencje</a>
-        </li>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav nav-pills">
                 <li class="nav-item">
-          <a class="nav-link" href="#">Kontakt</a>
-        </li>
+                    <a class="nav-link" href="#O-nas">O nas</a>
+                </li>
                 <li class="nav-item">
-          <a class="nav-link" href="#">Partnerzy</a>
-        </li>
-      </ul>
+                    <a class="nav-link" href="#Na-wymiar">Na wymiar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Uslugi">Usługi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Na-wymiar">Na wymiar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Kontakt">Kontakt</a>
+                </li>
+            </ul>
     </div>
-  </div>
+    </div>
 </nav>
 ';
 
