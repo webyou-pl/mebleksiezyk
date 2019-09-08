@@ -10,6 +10,7 @@
         "base/reset.scss",
         "base/buttons.scss",
         "base/base.scss",
+        "base/slant.scss",
         "base/typography.scss";
 
 // layout
@@ -30,4 +31,5 @@
 
 // pages
     @import 
-        "pages/homepage.scss";
+        "pages/homepage.scss",
+        "pages/onas.scss";

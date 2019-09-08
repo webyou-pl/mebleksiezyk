@@ -1,0 +1,88 @@
+#onas{
+
+    .onas__title{
+        padding-top: $header-padding;
+        padding-bottom: 50px; 
+        
+    }
+    .onas__row{
+        display: flex;
+        justify-content: center;
+    
+        .onas__column-1{
+            width: 400px;
+            padding-bottom: $distance-holder;
+            
+        }
+        .onas__column-2{
+            padding-bottom: $distance-holder;
+            .onas__column-2-inside{
+                
+
+                &:nth-child(1){
+                    border-bottom: 1px solid gray;
+                    
+                }
+                &:nth-child(2){
+                    border-bottom: 1px solid gray;
+                    padding-top: 40px;
+                }
+                &:nth-child(3){
+                   
+                    padding-top: 40px;
+                }
+                .first:before{
+                    content: "";
+                    display: block;
+                    background: url("../../../mebleksiezyk/images/sections/onas/icons8-illustrator-100.png") no-repeat;
+                    background-size: 50px 50px;
+                    width: 50px;
+                    height: 50px;
+                    float: left;
+                    margin: 0 6px 0 0;
+                }
+                .second:before{
+                    content: "";
+                    display: block;
+                    background: url("../../../mebleksiezyk/images/sections/onas/icons8-shield-100.png") no-repeat;
+                    background-size: 50px 50px;
+                    width: 50px;
+                    height: 50px;
+                    float: left;
+                    margin: 0 6px 0 0;
+                }
+                .third:before{
+                    content: "";
+                    display: block;
+                    background: url("../../../mebleksiezyk/images/sections/onas/icons8-popular-man-100.png") no-repeat;
+                    background-size: 50px 50px;
+                    width: 50px;
+                    height: 50px;
+                    float: left;
+                    margin: 0 6px 0 0;
+                }
+                h5{
+                    font-size: 20px;
+                    
+                }
+                p{
+                    display: flex;
+                    justify-content: flext-end;
+                    padding:5px;
+                    font-size: 16px;
+                    font-family: Italic;
+              
+                }
+         }
+        }
+        .onas__column-3{
+            padding-bottom:$distance-holder;
+            img{ 
+                max-width: 400px;
+                max-height: 400px;
+
+                
+            }
+        }
+    }
+}
