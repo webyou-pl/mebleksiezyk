@@ -1,5 +1,31 @@
 #na-wymiar{
-    background-image: url("../images/backgrounds/main/shutterstock.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url("../images/backgrounds/main/shutterstock.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: 100vw;
+}
+
+.furnituresSize{
+    &__content{
+        &:last-of-type{
+            padding-bottom: 40px;
+        }
+    }
+    &__box{
+        position: relative;
+    }
+    &__image{
+        // height: 320px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    &__title{
+        position: absolute;
+        top: calc(100% + 5px);
+        left: 0;
+    }
+
 }
