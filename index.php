@@ -195,7 +195,24 @@
             <div class="container">
                 <h2 class="h1">Przykładowe realizacje</h2>
                 <div class="gallery row">
-                    <div class="gallery__item col-12 col-md-6"></div>
+                    <div class="gallery__item col-12 col-md-5">
+                        <img src="images/sections/meble-na-wymiar/pozostale.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="gallery__item col-12 col-md-2">
+                        <img src="images/sections/meble-na-wymiar/kuchenne.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="gallery__item col-12 col-md-5">
+                        <img src="images/sections/meble-na-wymiar/lazienki.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="gallery__item col-12 col-md-4">
+                        <img src="images/sections/meble-na-wymiar/pozostale.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="gallery__item col-12 col-md-3">
+                        <img src="images/sections/meble-na-wymiar/kuchenne.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="gallery__item col-12 col-md-5">
+                        <img src="images/sections/meble-na-wymiar/lazienki.jpg" alt="" class="img-fluid">
+                    </div>
                 </div>
             </div>
         </section>

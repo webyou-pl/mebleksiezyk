@@ -50,7 +50,7 @@ $nav_menu = '
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav nav-pills w-100 justify-content-around">
                 <li class="nav-item">
-                    <a class="nav-link" href="#secondary">O nas</a>
+                    <a class="nav-link" href="#onas">O nas</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#na-wymiar">Na wymiar</a>
