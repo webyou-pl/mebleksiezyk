@@ -1,124 +1,61 @@
-#navbar {
 
-    position: absolute;
-    z-index: 3;
-    width: 100%;
-    padding: 8px 16px 0px 16px;
-
-    @media (min-width: 282px) and (max-width: 768px) {
-        background: rgba(90, 89, 89, 0.9);
-
-        ul {
-            display: flex;
-            align-items: flex-start;
-
-            a {
-                transform: scale(.7);
-            }
-        }
-
-        a {
-            height: 50px;
-
-            img {
-                position: absolute;
-                top: -20px;
-                transform: scale(.5);
-            }
-        }
-
-        @include box-shadow();
-    }
-
-    &.scroll-nav {
-        height: auto;
-        position: fixed;
-        background: rgba(90, 89, 89, 0.9);
-        padding-right: 16px;
-
-        @media (min-width: 282px) {
-            background: rgba(90, 89, 89, 0.9);
-
-            ul {
-                display: flex;
-                align-items: flex-start;
-
-                a {
-                    transform: scale(.7);
-                }
-            }
-
-            a {
-                height: 50px;
-
-                img {
-                    position: absolute;
-                    top: -20px;
-                    transform: scale(.5);
-                }
-            }
-
-            @include box-shadow();
-        }
-
-        ul {
-            display: flex;
-            align-items: flex-start;
-
-            a {
-                height: 50px;
-
-                img {
-                    position: absolute;
-                    top: -20px;
-                    transform: scale(.5);
-                }
-            }
-        }
-
-        @include box-shadow();
-    }
-
-    img {
-        border-radius: 50%;
-        border: 2px solid white;
-    }
-
-    li {
-        display: inline-block;
-        margin: 0 1rem;
-        // font-family: $Caveat;
-        text-transform: uppercase;
-        // color: $maintext;
-
-        &::after {
-            content: '';
+#navbar{
+    background: rgba(black, 0);
+    transition: .6s background ease-in-out;
+    .nav-pills{
+        .nav-link{
+            text-transform: uppercase;
             position: relative;
-            bottom: -5px;
-            display: block;
-            height: 5px;
-            width: 0%;
-            margin: auto;
-            // background-image: linear-gradient(to right, transparent, $primary, $primary, transparent);
-            @include transition(.2s);
-        }
-
-        &:hover {
-            &::after {
+            z-index: 1;
+            color: white;
+            letter-spacing: .2em;
+            &.active{
+                background-color: transparent;
+                border-bottom-color: white;
+                &::after{
+                    border-bottom-color: white;
+                    top: 0;
+                }
+            }
+            &:after{
+                content: '';
+                transition: .6s all ease-in-out;
+                position: absolute;
+                display: block;
+                top: 5px;
+                left: 0;
                 width: 100%;
-
-                @media (min-width: 0px)and (max-width: 991.98px) {
-                    width: 0%;
-                    background-image: none;
+                height: 100%;
+                border-bottom: 1px solid transparent;
+            }
+            &:hover{
+                color: white;
+                &::after{
+                    border-bottom-color: white;
+                    top: 0;
                 }
             }
         }
-
-        a {
-
-            font-size: 22px;
-            font-weight: 600;
-
+        .nav-item{
+            position: relative;
         }
+    }
+
+    .navbar-brand{
+        height: 45px;
+        overflow: hidden;
+        // margin-right: 100px;
+        padding: 0 70px;
+
+        display: flex;
+        align-items: flex-end;
+        img{
+            width: 155px;
+        }
+    }
+
+    //Navar scroll
+    &.scroll-nav{
+        background: rgba(black, .6);
     }
 }

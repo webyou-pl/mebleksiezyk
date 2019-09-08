@@ -1,23 +1,22 @@
-#secondary{
-    display: none;
+#onas{
 
-    .secondary__title{
-        margin-left: 20%;
-        position: relative;
+    .onas__title{
         padding-top: $header-padding;
         padding-bottom: 50px; 
+        
     }
-    .secondary__row{
+    .onas__row{
         display: flex;
         justify-content: center;
     
-        .secondary__column-1{
+        .onas__column-1{
             width: 400px;
             padding-bottom: $distance-holder;
+            
         }
-        .secondary__column-2{
+        .onas__column-2{
             padding-bottom: $distance-holder;
-            .secondary__column-2-inside{
+            .onas__column-2-inside{
                 
 
                 &:nth-child(1){
@@ -35,7 +34,7 @@
                 .first:before{
                     content: "";
                     display: block;
-                    background: url("../../../mebleksiezyk/images/sections/onas/94073.png") no-repeat;
+                    background: url("../../../mebleksiezyk/images/sections/onas/icons8-illustrator-100.png") no-repeat;
                     background-size: 50px 50px;
                     width: 50px;
                     height: 50px;
@@ -45,7 +44,7 @@
                 .second:before{
                     content: "";
                     display: block;
-                    background: url("../../../mebleksiezyk/images/sections/onas/63307.png") no-repeat;
+                    background: url("../../../mebleksiezyk/images/sections/onas/icons8-shield-100.png") no-repeat;
                     background-size: 50px 50px;
                     width: 50px;
                     height: 50px;
@@ -55,7 +54,7 @@
                 .third:before{
                     content: "";
                     display: block;
-                    background: url("../../../mebleksiezyk/images/sections/onas/35609.png") no-repeat;
+                    background: url("../../../mebleksiezyk/images/sections/onas/icons8-popular-man-100.png") no-repeat;
                     background-size: 50px 50px;
                     width: 50px;
                     height: 50px;
@@ -70,16 +69,19 @@
                     display: flex;
                     justify-content: flext-end;
                     padding:5px;
-                    font-size: 15px;
+                    font-size: 16px;
+                    font-family: Italic;
               
                 }
          }
         }
-        .secondary__column-3{
+        .onas__column-3{
             padding-bottom:$distance-holder;
             img{ 
                 max-width: 400px;
                 max-height: 400px;
+
+                
             }
         }
     }
