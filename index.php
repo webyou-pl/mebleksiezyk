@@ -75,7 +75,7 @@
                                 <img src="images/sections/meble-na-wymiar/kuchenne.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="furnituresSize__title">
-                                <h3>Kuchenne</h3>
+                                <h2>Kuchenne</h2>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@
                                 <img src="images/sections/meble-na-wymiar/szafy-i-wneki.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="furnituresSize__title">
-                                <h3>Szafy i wnęki</h3>
+                                <h2>Szafy i wnęki</h2>
                             </div>
                         </div>
                     </div>
@@ -95,7 +95,7 @@
                                 <img src="images/sections/meble-na-wymiar/lazienki.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="furnituresSize__title">
-                                <h3>Łazienki</h3>
+                                <h2>Łazienki</h2>
                             </div>
                         </div>
                     </div>
@@ -105,7 +105,7 @@
                                 <img src="images/sections/meble-na-wymiar/pokoj.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="furnituresSize__title">
-                                <h3>Pokój</h3>
+                                <h2>Pokój</h2>
                             </div>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                                 <img src="images/sections/meble-na-wymiar/przedpokoj.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="furnituresSize__title">
-                                <h3>Przedpokój</h3>
+                                <h2>Przedpokój</h2>
                             </div>
                         </div>
                     </div>
@@ -125,7 +125,7 @@
                                 <img src="images/sections/meble-na-wymiar/mlodziezowe-i-dzieciece.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="furnituresSize__title">
-                                <h3>Młodzieżowe i dziecięce</h3>
+                                <h2>Młodzieżowe i dziecięce</h2>
                             </div>
                         </div>
                     </div>
@@ -135,7 +135,7 @@
                                 <img src="images/sections/meble-na-wymiar/sypialnia.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="furnituresSize__title">
-                                <h3>Sypialnia</h3>
+                                <h2>Sypialnia</h2>
                             </div>
                         </div>
                     </div>
@@ -145,7 +145,7 @@
                                 <img src="images/sections/meble-na-wymiar/dla-firm.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="furnituresSize__title">
-                                <h3>Dla firm</h3>
+                                <h2>Dla firm</h2>
                             </div>
                         </div>
                     </div>
@@ -155,7 +155,7 @@
                                 <img src="images/sections/meble-na-wymiar/pozostale.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="furnituresSize__title">
-                                <h3>Pozostałe</h3>
+                                <h2>Pozostałe</h2>
                             </div>
                         </div>
                     </div>
@@ -168,10 +168,25 @@
             <div class="container">
                 <h2 class="h1">Naszym klientom zapewniamy</h2>
                 <div class="row">
-                    <div class="col-12 col-md">1</div>
-                    <div class="col-12 col-md">2</div>
-                    <div class="col-12 col-md">3</div>
-                    <div class="col-12 col-md">4</div>
+                    <div class="col-12 col-md service">
+                        <h2 class="service__title">Darmowy pomiar</h2>
+                        <img class="service__image" src="images/sections/uslugi/pomiar.png" alt="">
+                    </div>
+                    <div class="col-12 col-md service">
+                        <h2 class="service__title">Darmową wycene</h2>
+                        <img class="service__image" src="images/sections/uslugi/wycena.png" alt="">
+                    </div>
+                    <div class="col-12 col-md service">
+                        <h2 class="service__title">Transport</h2>
+                        <img class="service__image" src="images/sections/uslugi/transport.png" alt="">
+                    </div>
+                    <div class="col-12 col-md service">
+                        <h2 class="service__title">Montaż</h2>
+                        <img class="service__image" src="images/sections/uslugi/montaz.png" alt="">
+                    </div>
+                    <div class="col-12 mt-5">
+                        <p> Obcaecati ducimus voluptatem, possimus sapiente nemo facere voluptas eligendi totam sunt! Harum error odit nisi eos nobis explicabo itaque soluta provident facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ducimus voluptatem, possimus sapiente nemo facere voluptas eligendi totam sunt! Harum error odit nisi eos nobis explicabo itaque soluta provident facere.  Obcaecati ducimus voluptatem, possimus sapiente nemo facere voluptas eligendi totam sunt! Harum error odit nisi eos nobis explicabo itaque soluta provident facere.</p>
+                    </div>
                 </div>
             </div>
         </section>
