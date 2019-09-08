@@ -14,7 +14,7 @@
                 <p>slider</p>
             </div> -->
         </header>
-    <section>
+    <!-- <section> -->
         <div id="hover-main"></div>
         <section id="main" class="main"></section>
 
@@ -24,9 +24,10 @@
                 <img src="images/logo/ksiezyk_meble_logo_white.png" class="img-fluid main__logo" id="logo" onclick="startAnimation() startA()">
             </div>
         </div>
-    </section>
+    <!-- </section> -->
+
     <section id="onas">
-        <div class="slant-top"></div>
+        
         
             <div class="container">
             <div class="onas__title">
@@ -62,7 +63,7 @@
 
 
 
-
+        
     </section>
 
         <section id="na-wymiar" class="text-white">
