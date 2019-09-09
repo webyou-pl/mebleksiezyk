@@ -42,7 +42,7 @@ function startAnimation() {
         logoButton.classList.remove('main__logo');
         logoButton.classList.add('main__logo-after');
         hoverMain.remove();
-        
+
 }
 
 window.onload = function (){
@@ -52,7 +52,7 @@ window.onload = function (){
         logoButton.classList.remove('main__logo');
         logoButton.classList.add('main__logo-after');
         hoverMain.remove();
-        
+
     }, 3000);
 }
 
@@ -63,7 +63,7 @@ window.onload = function (){
 // }
 
 
-// href=# scroll to element animation
+// href=# animation scroll to element
 $('a[href^="#"]').on('click', function(event) {
     var target = $(this.getAttribute('href'));
 
@@ -73,4 +73,25 @@ $('a[href^="#"]').on('click', function(event) {
             scrollTop: target.offset().top
         }, 1500);
     }
+});
+
+$(document).ready(function() {
+    $('.popup-gallery').each(function() { // the containers for all your galleries
+        $(this).magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            mainClass: 'mfp-with-zoom',
+            zoom: {
+                enabled: true,
+                duration: 300,
+                easing: 'ease-in-out',
+                opener: function(openerElement) {
+                    return openerElement.is('img') ? openerElement : openerElement.find('img');
+                }
+            },
+            gallery:{
+                enabled:true
+            }
+        });
+    });
 });

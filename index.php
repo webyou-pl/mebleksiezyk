@@ -208,35 +208,47 @@
         <section id="galeria">
             <div class="container">
                 <h2 class="h1">Przykładowe realizacje</h2>
-                <div class="gallery row">
+                <div class="gallery row popup-gallery">
                     <div class="col-12 col-md-5">
                         <div class="gallery__item">
-                            <img src="images/sections/meble-na-wymiar/pozostale.jpg" alt="" class="">
+                            <a class="" href="images/sections/meble-na-wymiar/pozostale.jpg">
+                                <img src="images/sections/meble-na-wymiar/pozostale.jpg" alt="" class="">
+                            </a>
                         </div>    
                     </div>
                     <div class="col-12 col-md-2">
                         <div class="gallery__item">
-                            <img src="images/sections/meble-na-wymiar/kuchenne.jpg" alt="" class="">
+                            <a class="" href="images/sections/meble-na-wymiar/kuchenne.jpg">
+                                <img src="images/sections/meble-na-wymiar/kuchenne.jpg" alt="" class="">
+                            </a>
                         </div>    
                     </div>
                     <div class="col-12 col-md-5">
                         <div class="gallery__item">
-                            <img src="images/sections/meble-na-wymiar/lazienki.jpg" alt="" class="">
+                            <a class="" href="images/sections/meble-na-wymiar/lazienki.jpg">
+                                <img src="images/sections/meble-na-wymiar/lazienki.jpg" alt="" class="">
+                            </a>
                         </div>    
                     </div>
                     <div class="col-12 col-md-4">
                         <div class="gallery__item">
-                            <img src="images/sections/meble-na-wymiar/lazienki.jpg" alt="" class="">
+                            <a class="" href="images/sections/meble-na-wymiar/lazienki.jpg">
+                                <img src="images/sections/meble-na-wymiar/lazienki.jpg" alt="" class="">
+                            </a>
                         </div>    
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="gallery__item">
-                            <img src="images/sections/meble-na-wymiar/pozostale.jpg" alt="" class="">
+                            <a class="" href="images/sections/meble-na-wymiar/pozostale.jpg">
+                                <img src="images/sections/meble-na-wymiar/pozostale.jpg" alt="" class="">
+                            </a>
                         </div>    
                     </div>
                     <div class="col-12 col-md-5">
                         <div class="gallery__item">
-                            <img src="images/sections/meble-na-wymiar/kuchenne.jpg" alt="" class="">
+                            <a class="" href="images/sections/meble-na-wymiar/kuchenne.jpg">
+                                <img src="images/sections/meble-na-wymiar/kuchenne.jpg" alt="" class="">
+                            </a>
                         </div>    
                     </div>
                 </div>
