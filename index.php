@@ -25,15 +25,18 @@
             </div>
         </div>
     <!-- </section> -->
-    <section class="razor">
+    <div class="razor">
         <div class="razor_shadow"></div>
-    </section>
-    <section id="onas">
+    </div>
+
+    <!-- *** Pierwsza 'sekcja' z contentem strony powinna być w main zgodnie ze semantyka *** -->
+    <main id="onas">
         
         
             <div class="container">
             <div class="onas__title">
-                <h2 class="h2">O nas</h2>
+                <!-- *** h2, która mam style h2 to się gryzie. W naszym przypadku sekcja o nas ma najwięcej tekstu, który opisuje strone, więc musi być h1. ps. na stronie może być tylko jedna h1 *** -->
+                <h1>O nas</h1>
             </div>
                     <div class="row onas__row">
                         <div class="col-sm-12 col-lg-4 d-flex onas__column-1">
@@ -43,16 +46,17 @@
                         </div>
                         <div class="col-sm-12 col-lg-4 d-block onas__column-2">
                             <div class="onas__column-2-inside">
-                            <h5 class="first">Wyjątkowy dizajn</h5>
+                                <!-- *** po h1 powinna być h2 i tak dalej. jeżeli chciałbyś mieć h2, z widokiem h5 o piszemy < h2 class="h5" > *** -->
+                            <h2 class="h3 first">Wyjątkowy dizajn</h2>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet.</p>
                             </div> 
                             <div class="onas__column-2-inside">
-                            <h5 class="second">Doświadczenie</h5>
+                            <h2 class="h3 second">Doświadczenie</h2>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet.</p>
 
                             </div>
                             <div class="onas__column-2-inside">
-                            <h5 class="third">Gwarancja jakości</h5>
+                            <h2 class="h3 third">Gwarancja jakości</h2>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet.</p>
                             </div>
                         </div>
@@ -61,12 +65,14 @@
                         </div>
                     </div>
             </div>
+        </main>
        
 
 
 
-        
-    </section>
+    <div class="razor">
+        <div class="razor_shadow"></div>
+    </div>
 
         <section id="na-wymiar" class="text-white furnituresSize">
             <div class="container">
@@ -166,7 +172,9 @@
             </div>
         </section>
 
-
+        <div class="razor">
+            <div class="razor_shadow"></div>
+        </div>
         <section id="uslugi">
             <div class="container">
                 <h2 class="h1">Naszym klientom zapewniamy</h2>
@@ -194,6 +202,9 @@
             </div>
         </section>
 
+        <div class="razor">
+            <div class="razor_shadow"></div>
+        </div>
         <section id="galeria">
             <div class="container">
                 <h2 class="h1">Przykładowe realizacje</h2>
@@ -232,15 +243,20 @@
             </div>
         </section>
 
+        <div class="razor">
+            <div class="razor_shadow"></div>
+        </div>
         <footer id="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-6">
-                        <?= $logo_svg; ?>
+                    <div class="col-12 col-md-4">
+                        <a href="#!">
+                            <?= $logo_svg; ?>
+                        </a>
                     </div>
-                    <div class="col-12 col-md-6">
-                        <p>tel: <a href="#!">000 123 345 567</a></p>
-                        <p>Email: <a href="#!">adres@domena.com.pl</a></p>
+                    <div class="col-12 col-md-8">
+                        <p>tel: <a href="#!">600 334 535</a></p>
+                        <p>Email: <a href="#!">mebleksiezyk@gmail.com</a></p>
                     </div>
                 </div>
             </div>

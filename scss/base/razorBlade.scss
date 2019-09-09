@@ -1,13 +1,14 @@
 .razor{
-    
-    filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+    margin-top: -20rem;
+    filter: drop-shadow(-1px 6px 30px rgba(50, 50, 0, 0.5));
     .razor_shadow{
         position: relative;
-        top:-50px;
-        height: 150px;
+        top: 0px;
+        height: 20rem;
         width: 100%;
-        background:white;
-        clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 70%);
+        background: white;
+        clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 50%);
+        transform: translateY(50%);
         
     }
 }
