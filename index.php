@@ -25,7 +25,9 @@
             </div>
         </div>
     <!-- </section> -->
-
+    <section class="razor">
+        <div class="razor_shadow"></div>
+    </section>
     <section id="onas">
         
         
