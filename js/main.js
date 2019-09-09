@@ -28,13 +28,13 @@ window.onload = function () {
 
 // Otwarcie głównej strony
 
-const logoButton = document.getElementById('logo');
-const hoverMain = document.getElementById('hover-main');
-const backgroundView = document.getElementById("main");
-const bodyView = document.getElementById("body");
+// const logoButton = document.getElementById('logo');
+// const hoverMain = document.getElementById('hover-main');
+// const backgroundView = document.getElementById("main");
+// const bodyView = document.getElementById("body");
 
 
-hoverMain.addEventListener("click", startAnimation);
+// hoverMain.addEventListener("click", startAnimation);
 
 function startAnimation() {
         bodyView.classList.remove("body");
@@ -44,7 +44,6 @@ function startAnimation() {
         hoverMain.remove();
         
 }
-
 
 window.onload = function (){
     this.setInterval(function (){
@@ -56,8 +55,22 @@ window.onload = function (){
         
     }, 3000);
 }
+
 // logoButton.addEventListener("click", startA);
 // function startA() {
 //     const backgroundView = document.getElementById("main");
 //     backgroundView.classList.add('main-background');
 // }
+
+
+// href=# scroll to element animation
+$('a[href^="#"]').on('click', function(event) {
+    var target = $(this.getAttribute('href'));
+
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top
+        }, 1500);
+    }
+});
