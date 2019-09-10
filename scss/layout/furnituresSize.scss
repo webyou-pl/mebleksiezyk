@@ -13,12 +13,15 @@
     }
     &__box{
         position: relative;
+        
     }
     &__image{
         overflow: hidden;
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 29rem;
+        overflow: hidden;
 
     }
     &__title{
