@@ -21,21 +21,19 @@
 
         <div class="main_logo-circle">
             <div>
-                <img src="images/logo/ksiezyk_meble_logo_white.png" class="img-fluid main__logo" id="logo" onclick="startAnimation() startA()">
+                <img src="images/logo/ksiezyk_meble_logo_white.png" class="img-fluid main__logo" id="logo" onclick="startAnimation()">
             </div>
         </div>
-    <!-- </section> -->
-    <div class="razor">
+   
+    <div class="razor" id="razor">
         <div class="razor_shadow"></div>
     </div>
 
-    <!-- *** Pierwsza 'sekcja' z contentem strony powinna być w main zgodnie ze semantyka *** -->
     <main id="onas">
         
         
             <div class="container">
             <div class="onas__title">
-                <!-- *** h2, która mam style h2 to się gryzie. W naszym przypadku sekcja o nas ma najwięcej tekstu, który opisuje strone, więc musi być h1. ps. na stronie może być tylko jedna h1 *** -->
                 <h1>O nas</h1>
             </div>
                     <div class="row onas__row">
@@ -46,7 +44,6 @@
                         </div>
                         <div class="col-sm-12 col-lg-4 d-block onas__column-2">
                             <div class="onas__column-2-inside">
-                                <!-- *** po h1 powinna być h2 i tak dalej. jeżeli chciałbyś mieć h2, z widokiem h5 o piszemy < h2 class="h5" > *** -->
                             <h2 class="h3 first">Wyjątkowy dizajn</h2>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet.</p>
                             </div> 

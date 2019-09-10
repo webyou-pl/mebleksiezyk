@@ -32,7 +32,7 @@ const logoButton = document.getElementById('logo');
 const hoverMain = document.getElementById('hover-main');
 const backgroundView = document.getElementById("main");
 const bodyView = document.getElementById("body");
-
+const razors = document.getElementById('razor');
 
 hoverMain.addEventListener("click", startAnimation);
 
@@ -41,6 +41,8 @@ function startAnimation() {
         backgroundView.classList.add('main-background');
         logoButton.classList.remove('main__logo');
         logoButton.classList.add('main__logo-after');
+        razors.style.visibility ='visible';
+        razors.style.animation = 'fadeOut 2s';
         hoverMain.remove();
         
 }
@@ -52,12 +54,9 @@ window.onload = function (){
         backgroundView.classList.add('main-background');
         logoButton.classList.remove('main__logo');
         logoButton.classList.add('main__logo-after');
+        razors.style.visibility ='visible';
+        razors.style.animation = 'fadeOut 2s';
         hoverMain.remove();
         
     }, 3000);
 }
-// logoButton.addEventListener("click", startA);
-// function startA() {
-//     const backgroundView = document.getElementById("main");
-//     backgroundView.classList.add('main-background');
-// }
