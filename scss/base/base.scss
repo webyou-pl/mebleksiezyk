@@ -1,7 +1,12 @@
+html{
+	margin-right: 0 !important;
+	overflow-y: auto !important;
+}
+
 body section,
 body main {
-    padding-top: $main-padding;    
-	padding-bottom: calc(#{$main-padding} * 2);    
+    padding-top: calc(#{$main-padding} * 1.5);
+	padding-bottom: calc(#{$main-padding} * 1.5);
 }
 
 footer#footer{

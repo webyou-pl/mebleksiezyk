@@ -10,9 +10,7 @@ $template_start_head = '
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="'.$address.'/build/main.css'.'">
-
-    
-    // <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
 ';
 
 $template_end_head = '
@@ -44,7 +42,7 @@ $template_end_body = '
 $nav_menu = '
 <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
     <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#body">
             <img class="" src="images/logo/ksiezyk-meble-logo-vector.svg">
         </a>
         <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"

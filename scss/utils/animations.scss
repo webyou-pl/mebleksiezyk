@@ -1,0 +1,25 @@
+.popup-gallery__item{
+    position: relative;
+    
+    &::after{
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-size: 25%;
+        // transform: translate(50%, -50%);
+        background-repeat: no-repeat;
+        background-position: center ;
+        opacity: 0;
+        background-image: url('../images/logo/ksiezyk-meble-logo-vector.svg');
+        transition: .8s all ease-in-out;
+    }
+    &:hover{
+        &::after{
+            opacity: .8;
+        }
+    }
+}

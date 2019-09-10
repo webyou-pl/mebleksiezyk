@@ -1,4 +1,4 @@
-// zmniejszanie nav
+// scroll -> sticky navbar
 const menu = document.getElementById('navbar');
 const heightMenu = 10;
 
@@ -28,13 +28,13 @@ window.onload = function () {
 
 // Otwarcie głównej strony
 
-// const logoButton = document.getElementById('logo');
-// const hoverMain = document.getElementById('hover-main');
-// const backgroundView = document.getElementById("main");
-// const bodyView = document.getElementById("body");
+const logoButton = document.getElementById('logo');
+const hoverMain = document.getElementById('hover-main');
+const backgroundView = document.getElementById("main");
+const bodyView = document.getElementById("body");
 
 
-// hoverMain.addEventListener("click", startAnimation);
+hoverMain.addEventListener("click", startAnimation);
 
 function startAnimation() {
         bodyView.classList.remove("body");
@@ -63,35 +63,31 @@ window.onload = function (){
 // }
 
 
-// href=# animation scroll to element
-$('a[href^="#"]').on('click', function(event) {
-    var target = $(this.getAttribute('href'));
 
-    if( target.length ) {
-        event.preventDefault();
-        $('html, body').stop().animate({
-            scrollTop: target.offset().top
-        }, 1500);
-    }
-});
+
 
 $(document).ready(function() {
+
     $('.popup-gallery').each(function() { // the containers for all your galleries
         $(this).magnificPopup({
-            delegate: 'a',
+            delegate: 'a.popup-gallery__item',
             type: 'image',
             mainClass: 'mfp-with-zoom',
-            zoom: {
-                enabled: true,
-                duration: 300,
-                easing: 'ease-in-out',
-                opener: function(openerElement) {
-                    return openerElement.is('img') ? openerElement : openerElement.find('img');
-                }
-            },
             gallery:{
                 enabled:true
             }
         });
     });
+
+// href=# animation scroll to element
+    $('a[href^="#"]').on('click', function(event) {
+        var target = $(this.getAttribute('href'));
+        if( target.length ) {
+            event.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top
+            }, 1500);
+        }
+    });
+    
 });
