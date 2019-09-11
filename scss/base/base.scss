@@ -10,7 +10,8 @@ body main {
 }
 
 footer#footer{
-	padding: $main-padding 0;
+	padding-top: $main-padding;
+	padding-bottom: calc(#{$main-padding} * 0.5)
 }
 // .body{
 // 	max-height: 100vh;

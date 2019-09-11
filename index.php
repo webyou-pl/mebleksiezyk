@@ -291,6 +291,15 @@
                 </div>
             </div>
         </footer>
+        <div id="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center text-white">
+                        <p>&#169;2019 <strong>www.mebleksiezyk.pl<strong> - wszelkie prawa zastrzeżone. Projekt zrealizowany przez zespół <a href="https://www.webyou.pl" title="Front-End Web Developer Programisa Wrocław" target="_blank">webyou.pl</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <?= $template_end_body; ?>
     </body>
