@@ -16,12 +16,27 @@
         </header>
     <!-- <section> -->
         <div id="hover-main"></div>
-        <section id="main" class="main"></section>
+        <section id="main" class="main">
+            <div class="carousel slide" data-ride="carousel" id="carousel">
+                <div class="carousel-inner text-center">
+                    <div class="carousel-item active">
+                        <div class="d-flex h-100 align-items-center justify-content-center">
+                            <h2>Pasja tworzenia</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex h-100 align-items-center justify-content-center">
+                            <h2>Meble na wymiar</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
         <div class="main_logo-circle">
             <div>
-                <img src="images/logo/ksiezyk_meble_logo_white.png" class="img-fluid main__logo" id="logo" onclick="startAnimation()">
+                <img src="images/logo/ksiezyk-meble-logo-vector.svg" class="img-fluid main__logo" id="logo" onclick="startAnimation()">
             </div>
         </div>
    

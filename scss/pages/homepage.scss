@@ -1,5 +1,5 @@
 .main {
-    height: 100vh;
+    height:calc(100vh + 100px);
     z-index: 0;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,8 +10,7 @@
         content: '';
         transition: all 1s ease-in-out;
         display: block;
-        // width: 100vw;
-        height: 100vh;
+        height:calc(100vh + 100px);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100%;
@@ -51,12 +50,12 @@
 
 .main-background {
     background-image: url("../../../mebleksiezyk/images/backgrounds/main/shutterstock.jpg");
-    height: 100vh;
+    height: calc(100vh + 100px);
     z-index: 1;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
-    animation: fadeOut 8s;
+    background-size:cover;
+    animation: fadeOut 4s;
     animation-fill-mode: forwards;
     
     @keyframes fadeOut {
@@ -109,4 +108,27 @@
             }
         }
     }
+
+
+
+
+.carousel{
+   display: none;
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+        
+        
+        h2{
+            text-transform: uppercase;
+            font-size: 6rem;
+            font-weight: 600;
+            color:white;
+         
+            
+        }
+    }
+
 
