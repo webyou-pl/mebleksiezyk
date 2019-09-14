@@ -30,21 +30,8 @@
         &::before{
             opacity: .55;
         }
-        img{
-        }
-        animation-name: brightness-dark;
-        animation-duration: 4s;
-    }
-}
 
-@keyframes brightness-dark{
-    0%{
-        filter: brightness(100%);
     }
-    100%{
-        filter: brightness(50%);
-    }
-
 }
 
 
