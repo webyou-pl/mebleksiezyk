@@ -78,7 +78,7 @@
             <div class="container">
                 <h2 class="h1">Meble na wymiar</h2>
                 <div class="row">
-                    <div class="col-12 col-md-5 offset-md-1 furnituresSize__content">
+                    <div class="col-12 col-md-5 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
                                 <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/kuchenne.jpg">
@@ -90,7 +90,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 offset-md-6 furnituresSize__content">
+                    <div class="col-12 col-md-5 offset-md-7 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
                                 <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/szafy-i-wneki.jpg">
@@ -102,7 +102,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 offset-md-1 furnituresSize__content">
+                    <div class="col-12 col-md-5 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
                                 <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/lazienki.jpg">
@@ -114,7 +114,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 offset-md-6 furnituresSize__content">
+                    <div class="col-12 col-md-5 offset-md-7 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
                                 <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/pokoj.jpg">
@@ -126,7 +126,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 offset-md-1 furnituresSize__content">
+                    <div class="col-12 col-md-5 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
                                 <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/przedpokoj.jpg">
@@ -138,7 +138,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 offset-md-6 furnituresSize__content">
+                    <div class="col-12 col-md-5 offset-md-7 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
                                 <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/mlodziezowe-i-dzieciece.jpg">
@@ -150,7 +150,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 offset-md-1 furnituresSize__content">
+                    <div class="col-12 col-md-5 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
                                 <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/sypialnia.jpg">
@@ -162,7 +162,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 offset-md-6 furnituresSize__content">
+                    <div class="col-12 col-md-5 offset-md-7 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
                                 <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/dla-firm.jpg">
@@ -174,7 +174,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 offset-md-1 furnituresSize__content">
+                    <div class="col-12 col-md-5 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
                                 <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/pozostale.jpg">
