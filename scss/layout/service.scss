@@ -8,6 +8,10 @@
         &__title{
             margin-bottom: 2rem;
             text-align: center;
+            height: 7rem;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
         }
     }
 }

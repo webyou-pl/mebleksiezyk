@@ -1,7 +1,7 @@
 .popup-gallery__item{
     position: relative;
 
-    &::after{
+    &::after, &::before{
         content: '';
         display: block;
         position: absolute;
@@ -9,19 +9,42 @@
         left: 0%;
         width: 100%;
         height: 100%;
+        transition: .8s all ease-in-out;
+    }
+    &::after{
         background-size: 25%;
-        // transform: translate(50%, -50%);
         background-repeat: no-repeat;
         background-position: center ;
         opacity: 0;
         background-image: url('../images/logo/ksiezyk-meble-logo-vector.svg');
-        transition: .8s all ease-in-out;
+    }
+
+    &::before{
+        background: $brown;
+        opacity: .0;
     }
     &:hover{
         &::after{
             opacity: .8;
         }
+        &::before{
+            opacity: .55;
+        }
+        img{
+        }
+        animation-name: brightness-dark;
+        animation-duration: 4s;
     }
+}
+
+@keyframes brightness-dark{
+    0%{
+        filter: brightness(100%);
+    }
+    100%{
+        filter: brightness(50%);
+    }
+
 }
 
 
@@ -47,7 +70,7 @@
 
 @keyframes movment {
     0% {
-        transform: translate(-50%, -50%);
+        // transform: translate(-50%, -50%);
         left: 50%;
         top: 50%;
         width: $logo-size;
@@ -55,9 +78,9 @@
     }
     100% {
         margin-top: 50px;
-        transform: translate(-50%, -50%);
+        // transform: translate(-50%, -50%);
         width: calc(#{$logo-size} * 2.5);
-        top: 50%;
+        top: 50%;        
         left: calc(100vw - (#{$logo-size} * 2.5) / 2 - 5rem);
     }
 }
