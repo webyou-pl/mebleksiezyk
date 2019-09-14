@@ -1,0 +1,65 @@
+
+@keyframes fadeOut {
+    from {
+        filter: brightness(0%);
+    }
+    to {
+        filter: brightness(100%);
+    }
+}
+
+@keyframes maxheight{
+    0%{
+        margin-bottom: 100px;
+        max-height: 150px;
+    }
+    100%{
+        margin-bottom: 0;
+        max-height: 385px;
+    }
+}
+
+@keyframes movment {
+    0% {
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        width: $logo-size;
+        margin-top: 0px;
+    }
+    100% {
+        margin-top: 50px;
+        transform: translate(-50%, -50%);
+        width: calc(#{$logo-size} * 2.5);
+        top: 50%;
+        left: calc(100vw - (#{$logo-size} * 2.5) / 2 - 5rem);
+    }
+}
+
+@keyframes movment-img{
+    from{
+        width: $logo-size;
+    }
+    to{
+        width: calc(#{$logo-size} * 2.5);
+    }
+}
+
+@keyframes opacity-animation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+@keyframes opacity1-0{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}

@@ -12,8 +12,8 @@ document.addEventListener('scroll', function () {
     if (yOffset < heightMenu) {
         menu.classList.remove('scroll-nav');
     }
-    
 });
+
 window.onload = function () {
     let yOffset = window.pageYOffset;
 
@@ -43,7 +43,6 @@ function startAnimation() {
         logoButton.classList.add('main__logo-after');
         carousel.style.setProperty('display', 'inline'); 
         hoverMain.remove();
-        
 }
 
 
@@ -55,8 +54,5 @@ window.onload = function (){
         logoButton.classList.add('main__logo-after');
         carousel.style.setProperty('display', 'inline'); 
         hoverMain.remove();
-        
-    }, 3000);
+    }, 500);
 }
-
-

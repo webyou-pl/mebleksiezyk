@@ -17,16 +17,17 @@
     <!-- <section> -->
         <div id="hover-main"></div>
         <section id="main" class="main">
-            <div class="carousel slide" data-ride="carousel" id="carousel">
+            <div class="carousel container slide" data-ride="carousel" id="carousel">
                 <div class="carousel-inner text-center">
-                    <div class="carousel-item active">
-                        <div class="d-flex h-100 align-items-center justify-content-center">
-                            <h2>Pasja tworzenia</h2>
+                        <div class="carousel-item active">
+                            <div class="d-flex h-100 align-items-center justify-content-center">
+                                <h2>Pasja tworzenia</h2>
+                            </div>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="d-flex h-100 align-items-center justify-content-center">
-                            <h2>Meble na wymiar</h2>
+                        <div class="carousel-item">
+                            <div class="d-flex h-100 align-items-center justify-content-center">
+                                <h2>Meble na wymiar</h2>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -35,18 +36,22 @@
 
 
         <div class="main_logo-circle">
-            <div>
-                <img src="images/logo/ksiezyk-meble-logo-vector.svg" class="img-fluid main__logo" id="logo" onclick="startAnimation()">
+            <div class="img-fluid main__logo" id="logo" onclick="startAnimation()">
+                    <div class="main__logo--image">
+                            <img src="images/logo/ksiezyk-meble-logo-vector.svg">
+                    </div>
+                    <div class="main__logo--text">
+                        <img src="images/logo/ksiezyk-meble-logo-vector.svg">
+                    </div>
             </div>
         </div>
-   
+
     <div class="razor" id="razor">
         <div class="razor_shadow"></div>
     </div>
 
     <main id="onas">
-        
-        
+
             <div class="container">
             <div class="onas__title">
                 <h1>O nas</h1>
@@ -69,7 +74,7 @@
                             </div>
                             <div class="onas__column-2-inside">
                             <h2 class="h3 third">Gwarancja jakości</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
                             </div>
                         </div>
                         <div class="col-sm-12 col-lg-4 d-flex onas__column-3">
