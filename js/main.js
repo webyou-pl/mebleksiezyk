@@ -51,10 +51,10 @@ window.onload = function (){
         backgroundView.classList.add('main-background');
         logoButton.classList.remove('main__logo');
         logoButton.classList.add('main__logo-after');
-        carousel.style.setProperty('display', 'inline'); 
+        carousel.style.setProperty('display', 'inline');
         hoverMain.remove();
 
-    }, 500);
+    }, 1500);
 }
 
 // logoButton.addEventListener("click", startA);

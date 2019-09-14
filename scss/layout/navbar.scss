@@ -1,7 +1,8 @@
 
 #navbar{
     background: rgba(black, 0);
-    transition: .6s background ease-in-out;
+    transition: .6s all ease-in-out;
+    opacity: 1;
     .nav-pills{
         .nav-link{
             text-transform: uppercase;
