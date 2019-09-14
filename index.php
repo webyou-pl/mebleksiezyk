@@ -196,7 +196,7 @@
                         <img class="service__image" src="images/sections/uslugi/pomiar.png" alt="">
                     </div>
                     <div class="col-12 col-md service">
-                        <h2 class="service__title">Darmową wycene</h2>
+                        <h2 class="service__title">Darmową wycenę</h2>
                         <img class="service__image" src="images/sections/uslugi/wycena.png" alt="">
                     </div>
                     <div class="col-12 col-md service">
