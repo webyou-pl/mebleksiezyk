@@ -12,8 +12,8 @@ document.addEventListener('scroll', function () {
     if (yOffset < heightMenu) {
         menu.classList.remove('scroll-nav');
     }
-    
 });
+
 window.onload = function () {
     let yOffset = window.pageYOffset;
 
@@ -32,7 +32,7 @@ const logoButton = document.getElementById('logo');
 const hoverMain = document.getElementById('hover-main');
 const backgroundView = document.getElementById("main");
 const bodyView = document.getElementById("body");
-
+const carousel = document.getElementById('carousel');
 
 hoverMain.addEventListener("click", startAnimation);
 
@@ -41,8 +41,8 @@ function startAnimation() {
         backgroundView.classList.add('main-background');
         logoButton.classList.remove('main__logo');
         logoButton.classList.add('main__logo-after');
+        carousel.style.setProperty('display', 'inline'); 
         hoverMain.remove();
-
 }
 
 window.onload = function (){
@@ -51,9 +51,10 @@ window.onload = function (){
         backgroundView.classList.add('main-background');
         logoButton.classList.remove('main__logo');
         logoButton.classList.add('main__logo-after');
+        carousel.style.setProperty('display', 'inline'); 
         hoverMain.remove();
 
-    }, 3000);
+    }, 500);
 }
 
 // logoButton.addEventListener("click", startA);
@@ -89,5 +90,5 @@ $(document).ready(function() {
             }, 1500);
         }
     });
-    
+
 });
