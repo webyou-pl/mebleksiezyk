@@ -1,17 +1,16 @@
 .main {
-    height: 100vh;
+    height:calc(100vh + 100px);
     z-index: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
     background: black;
-    
+
     &::after{
         content: '';
         transition: all 1s ease-in-out;
         display: block;
-        // width: 100vw;
-        height: 100vh;
+        height:calc(100vh + 100px);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100%;
@@ -19,7 +18,7 @@
         z-index: 2;
         opacity: 0;
         background-image:
-        radial-gradient(ellipse at center, 
+        radial-gradient(ellipse at center,
         rgba(black, 0) 0%,
         rgba(black, 1) 20%,
         rgba(black, 1) 100%),
@@ -50,63 +49,88 @@
 }
 
 .main-background {
-    background-image: url("../../../mebleksiezyk/images/backgrounds/main/shutterstock.jpg");
-    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/backgrounds/main/shutterstock.jpg");
+    height: calc(100vh + 100px);
     z-index: 1;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
-    animation: fadeOut 8s;
+    background-size:cover;
+    animation: fadeOut 4s;
     animation-fill-mode: forwards;
-    
-    @keyframes fadeOut {
-        from {
-            filter: brightness(0%);
-        }
-        to {
-            filter: brightness(95%);
-        }
+
+
+}
+
+.main__logo {
+    position: absolute;
+    display: block;
+    z-index: 10;
+    width: $logo-size;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: width 2s;
+}
+
+.main__logo--text{
+    display: none;
+}
+
+.main__logo-after {
+    z-index: 90;
+    position: absolute;
+    animation: movment 5s;
+    animation-fill-mode: forwards;
+    transform: translate(-50%, -50%);
+    transition: all 2s;
+    img{
+        animation: movment-img 5s;
+        animation-fill-mode: forwards;
+        transition: width 1s;
+    }
+
+    .main__logo--text{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        animation-name: opacity1-0;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+    }
+    .main__logo--image{
+        animation: maxheight 5s;
+        animation-fill-mode: forwards;
+        transition: width 1s;
+        overflow: hidden;
     }
 
 }
 
+.carousel{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding-right: 28.5rem;
+    animation: opacity-animation 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+    opacity: 0;
 
+    h2{
+        text-transform: uppercase;
+        font-size: 7rem;
+        line-height: 7rem;
+        font-weight: 600;
+        color:white;
 
-
-    .main__logo {
-        position: absolute;
-        display: block;
-        z-index: 10;
-        width: $logo-size;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        cursor: pointer;
-        transition: width 2s;
     }
-
-    .main__logo-after {
-        z-index: 90;
-        position: absolute;
-        animation: movment 5s;
-        animation-fill-mode: forwards;
-        transform: translate(-50%, -50%);
-        transition: width 2s;
-
-        @keyframes movment {
-            from {
-                transform: translate(-50%, -50%);
-                left: 50%;
-                top: 50%;
-                width: $logo-size;
-            }
-
-            to {
-                transform: translate(-50%, -50%);
-                width: calc(#{$logo-size} * 2.5);
-                top: 50%;
-                left: calc(100vw - (#{$logo-size} * 2.5) / 2 - 5rem);
-            }
-        }
-    }
+	.carousel-item-prev:not(.carousel-item-right), .active.carousel-item-left { // nastepny z dolu
+        animation-name: opacity1-0;
+        animation-duration: .5s;
+	}
+}
 

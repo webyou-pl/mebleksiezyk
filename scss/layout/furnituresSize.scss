@@ -1,5 +1,5 @@
 #na-wymiar{
-    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url("../images/backgrounds/main/shutterstock.jpg");
+    background-image: linear-gradient(rgba($brown, .6),rgba($brown, .6)),url("../images/backgrounds/main/shutterstock.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100vw;
@@ -13,19 +13,24 @@
     }
     &__box{
         position: relative;
+        border: 4px solid white;
     }
     &__image{
-        // height: 320px;
         overflow: hidden;
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 29rem;
+        overflow: hidden;
+
 
     }
     &__title{
         position: absolute;
         top: calc(100% + 5px);
-        left: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
     }
 
 }
