@@ -1,14 +1,28 @@
-body > section,
-body > main {
-    padding-top: $main-padding;    
-	padding-bottom: $main-padding;    
-	
-	p{
-		font-size: 1rem;
-	}
+html{
+	margin-right: 0 !important;
+	overflow-y: auto !important;
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+body section:not(.main),
+body main {
+    padding-top: calc(#{$main-padding} * 1.5);
+	padding-bottom: calc(#{$main-padding} * 1.5);
 }
 
 footer#footer{
-	padding-top: 20px;    
-	padding-bottom: 20px; 
+	padding-top: $main-padding;
+	padding-bottom: calc(#{$main-padding} * 0.5)
+}
+body.body{
+	max-height: 100vh;
+	overflow: hidden;
+
+	#navbar{
+		opacity: 0;
+	}
+	.carousel{
+		display: none;
+	}
 }

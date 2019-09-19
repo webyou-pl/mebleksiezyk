@@ -1,6 +1,7 @@
 // template
     @import
         "utils/variables.scss",
+        "utils/animations.scss",
         "utils/mixins.scss";
 
 
@@ -10,12 +11,16 @@
         "base/reset.scss",
         "base/buttons.scss",
         "base/base.scss",
+        "base/razorBlade.scss",
         "base/typography.scss";
 
 // layout
     @import 
         "layout/header.scss",
         "layout/cta.scss",
+        "layout/gallery.scss",
+        "layout/service.scss",
+        "layout/furnituresSize.scss",
         "layout/breadcrumbs.scss",
         "layout/navbar.scss",
         "layout/copyright.scss",
@@ -29,4 +34,5 @@
 
 // pages
     @import 
-        "pages/homepage.scss";
+        "pages/homepage.scss",
+        "pages/onas.scss";

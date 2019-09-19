@@ -1,49 +1,52 @@
+html{
+    font-size: 10px;
+}
+
 //FONTS
 $font-size-base: 1.125rem;
 
-@import url('https://fonts.googleapis.com/css?family=Caveat:400,700|Source+Sans+Pro:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=latin-ext');
+$Roboto: 'Roboto', sans-serif;
 
-$Caveat: 'Caveat', cursive;
-$SourceSansPro: 'Source Sans Pro', sans-serif;
+$font-family-sans-serif: $Roboto;
 
-$font-family-sans-serif: $SourceSansPro;
-
-html{
-    font-size: 1rem;
-}
 
 p{
-    line-height: 1.6rem;
-    font-family: $SourceSansPro;
+    line-height: 2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+p,
+h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5{
+    font-family: $Roboto;
+
 }
 
 h1, .h1{
-    font-family: $Caveat;
-    font-size: 3.8rem;
+    font-size: 4.5rem;
+    margin-bottom: 8rem;
+    font-weight: 400;
 }
 h2, .h2{
-    font-family: $Caveat;
     font-size: 3.5rem;
 }
 h3, .h3{
-    font-size: 3rem;
-    font-family: $SourceSansPro;
-    color: $primary;
+    font-size: 2rem;
 }
 h4, .h4{
-        font-family: $Caveat;
         font-weight: bold;
         font-size: 2rem;
 }
-h5, .h5{
-        font-size: 1.5rem;
-}
 
 a{
-    color: #000;
+    font-family: $Roboto;
+    color: black;
+
     &:hover{
         color: $primary;
-        text-decoration: none;
     }
 }
 

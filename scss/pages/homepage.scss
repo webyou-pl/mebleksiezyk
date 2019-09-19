@@ -1,73 +1,149 @@
 .main {
-    height: 100vh;
-    z-index: 0;
+    height: calc(100vh + 100px);
+    width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
     background: black;
-}
-.main-background {
-        background-image:url("../../../mebleksiezyk/images/backgrounds/main/shutterstock.jpg");
+
+    &::after{
+        content: '';
+        transition: all .6s ease-in-out;
+        display: block;
         height: 100vh;
-        z-index: -10;
-        background-position: center;
+        width: 100vw;
+        background-position: 20px;
         background-repeat: no-repeat;
-        background-size: 100%;
-        animation:fadeOut 10s;
-        animation-fill-mode: forwards;
-             @keyframes fadeOut {
-                 from {
-                    filter:brightness(0%);
-                 }
-                 to {
-                    filter:brightness(95%);
-                 }
-             }
+        background-size:  cover;
+        position: fixed;
+        z-index: 2;
+        opacity: 0;
+        background-image:
+        radial-gradient(ellipse at center,
+        rgba(black, 0) 0%,
+        rgba(black, 1) 20%,
+        rgba(black, 1) 100%),
+        url("../images/backgrounds/main/shutterstock.jpg");
+
     }
-      .main__logo{
-        position: absolute;
-        display:inline-block;
-        z-index: 10;
-        max-width: 100%;
-        // width: 100%;
-        max-height: auto;
-        left: 50%;
-        margin-left: -125px;
-        top:50%;
-        margin-top: -107.835px;
-        cursor: pointer;
-        transition: transform 1s;
-        animation: fadeIn 4s;
-        animation-fill-mode: forwards;
-         @keyframes fadeIn {
-                 from {
-                     opacity: 0;
-                 }
-                 to {
-                     opacity: 1;
-                 }
-             }
-            &:hover{
-                transform: scale(1.2);
+
+}
+#hover-main{
+    content: '';
+    width: $logo-size;
+    height: $logo-size;
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+    cursor: pointer;
+
+    &:hover{
+        background-image: radial-gradient(circle, url("../images/backgrounds/main/shutterstock.jpg") 0%, rgba(36,45,56,0) 88%);
+        background-size: 100vw 100vh;
+        background-position: center;
+        & + .main{
+            &::after{
+                opacity: 1;
             }
+        }
     }
-    .main__logo-after{
-         z-index: 90;
-         position: absolute;
-         animation: movment 4s;
-         animation-fill-mode: forwards;
-         @keyframes movment {
-             from {
-                 transform:scale(1.2);
-                        left: 50%;
-                        margin-left: -125px;
-                        top:50%;
-                        margin-top: -107.835px;
-             }
-             to {
-                 transform:scale(2.5);
-                        top:38%;
-                        left: 68%;
-             }
-         }
+}
+
+.main-background {
+    background-image: linear-gradient(rgba($brown, .6),rgba($brown, .6)),url("../images/backgrounds/main/shutterstock.jpg");
+    height: calc(100vh + 100px);
+    z-index: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    animation: fadeOut 4s;
+    animation-fill-mode: forwards;
+    opacity: 1;
+
+}
+
+.main__logo {
+    position: absolute;
+    display: block;
+    z-index: 10;
+    width: $logo-size;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: width 2s;
+}
+
+.main__logo--text{
+    display: none;
+}
+
+.main__logo-after {
+    z-index: 90;
+    position: absolute;
+    animation: movment 5s;
+    animation-fill-mode: forwards;
+    transform: translate(-50%, -50%);
+    transition: all 2s;
+
+    img{
+        animation: movment-img 5s;
+        animation-fill-mode: forwards;
+        transition: width 1s;
     }
+
+    .main__logo--text{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        animation-name: opacity1-0;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+    }
+    .main__logo--image{
+        animation: maxheight 5s;
+        animation-fill-mode: forwards;
+        transition: width 1s;
+        overflow: hidden;
+    }
+
+    @media (min-width: 1200px) and (max-width: 1400px){
+        transform: translate(-30%, -50%) scale(0.6);
+    }
+    @media (min-width: 1401px) and (max-width: 1600px){
+        transform: translate(-35%, -50%) scale(0.8);
+    }
+
+}
+
+.carousel{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding-right: 28.5rem;
+    animation: opacity-animation 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+    opacity: 0;
+
+    h2{
+        text-transform: uppercase;
+        font-size: 7rem;
+        line-height: 7rem;
+        font-weight: 400;
+        letter-spacing: .05em;
+        color:white;
+        font-family: $Roboto;
+    }
+	.carousel-item-prev:not(.carousel-item-right), .active.carousel-item-left { // nastepny z dolu
+        animation-name: opacity1-0;
+        animation-duration: .5s;
+	}
+}
+

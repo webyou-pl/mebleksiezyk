@@ -1,0 +1,14 @@
+.gallery{
+    padding: 0 1rem;
+    & div{
+        padding: 0 0.5rem;
+    }
+    &__item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        height: 30rem;
+        margin-bottom: 1rem;
+    }
+}
