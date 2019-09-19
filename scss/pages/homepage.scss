@@ -112,10 +112,10 @@
     }
 
     @media (min-width: 1200px) and (max-width: 1400px){
-        transform: translate(-20%, -50%);
+        transform: translate(-30%, -50%) scale(0.6);
     }
     @media (min-width: 1401px) and (max-width: 1600px){
-        transform: translate(-35%, -50%);
+        transform: translate(-35%, -50%) scale(0.8);
     }
 
 }
@@ -136,9 +136,10 @@
         text-transform: uppercase;
         font-size: 7rem;
         line-height: 7rem;
-        font-weight: 600;
+        font-weight: 400;
+        letter-spacing: .05em;
         color:white;
-
+        font-family: $Roboto;
     }
 	.carousel-item-prev:not(.carousel-item-right), .active.carousel-item-left { // nastepny z dolu
         animation-name: opacity1-0;
