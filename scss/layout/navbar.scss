@@ -59,4 +59,57 @@
     &.scroll-nav{
         background: rgba(black, .6);
     }
+
+    @media (max-width: 991.98px) {
+        background: rgba(black, .6);
+        .container{
+            justify-content: center;
+            padding-top: 20px;
+            .navbar-brand{
+                margin-bottom: 20px;
+                margin-right: 0;
+            }
+        }
+        .navbar-toggler{
+            position: fixed;
+            top: 25px;
+            right: 25px;
+            border: 2px solid white;
+            padding: 5px;
+            background: white;
+                span{
+                    width: 2em;
+                    height: 2em;
+                }
+                &:not(.collapsed){
+                    span{
+                    position: relative;
+                    background: none;
+                    &::before{
+                        position: absolute;
+                        top: 40%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        content: 'x';
+                        font-size: 3rem;
+                        font-weight: 200;
+                    }
+                }
+            }
+            &.show{
+                span{
+                    background: none;
+                }
+            }
+        }
+        .nav{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .nav-link{
+                margin: 10px 0;
+                padding-bottom: 10px;
+            }
+        }
+    }
 }
