@@ -1,13 +1,5 @@
 #onas{
-    // position: relative;
-    
 
-    // *** Dostępy muszą być wspólne dla każdego. Gdy będzie trzeba było zmienić, to trzeba do wszystkich class wchodzić. Zobacz jak jest teraz. *** 
-    // .onas__title{  
-    //     padding-top: $header-padding;
-    //     padding-bottom: 50px; 
-        
-    // }
     .onas__row{
         display: flex;
         justify-content: center;
@@ -20,7 +12,10 @@
         .onas__column-2{
             padding-bottom: $distance-holder;
             .onas__column-2-inside{
-                
+                @media (min-width: 576px) and (max-width: 767px) {  
+                    padding-top: 20px;
+                  
+                }
 
                 &:nth-child(1){
                     border-bottom: 1px solid gray;
@@ -67,18 +62,11 @@
                     margin: 0 6px 0 0;
                 }
 
-                // *** Typografia musi być wspólna. Dlatego, od przyszłego projektu pamietajmy, by zacząć od typografi i od odstępów ***
-                // h5{
-                //     font-size: 20px;
-                    
-                // }
+         
                 p{
                     display: flex;
                     justify-content: flext-end;
-                //     padding:5px;
-                //     font-size: 16px;
-                //     font-family: Italic;
-              
+      
                 }
          }
         }

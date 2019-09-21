@@ -38,7 +38,7 @@
         <div class="main_logo-circle">
             <div class="img-fluid main__logo" id="logo" onclick="startAnimation()">
                     <div class="main__logo--image">
-                            <img src="images/logo/ksiezyk-meble-logo-vector.svg">
+                            <img src="images/logo/ksiezyk-meble-logo-vector.svg" >
                     </div>
                     <div class="main__logo--text">
                         <img src="images/logo/ksiezyk-meble-logo-vector.svg">
@@ -214,19 +214,19 @@
             <div class="container">
                 <h2 class="h1">Naszym klientom zapewniamy</h2>
                 <div class="row">
-                    <div class="col-12 col-md service">
+                    <div class="col-sm-3 col-12 col-md service">
                         <h2 class="service__title">Darmowy pomiar</h2>
                         <img class="service__image" src="images/sections/uslugi/pomiar.png" alt="">
                     </div>
-                    <div class="col-12 col-md service">
+                    <div class="col-sm-3 col-12 col-md service">
                         <h2 class="service__title">Darmową wycenę</h2>
                         <img class="service__image" src="images/sections/uslugi/wycena.png" alt="">
                     </div>
-                    <div class="col-12 col-md service">
+                    <div class="col-sm-3 col-12 col-md service">
                         <h2 class="service__title">Transport</h2>
                         <img class="service__image" src="images/sections/uslugi/transport.png" alt="">
                     </div>
-                    <div class="col-12 col-md service">
+                    <div class="col-sm-3 col-12 col-md service">
                         <h2 class="service__title">Montaż</h2>
                         <img class="service__image" src="images/sections/uslugi/montaz.png" alt="">
                     </div>

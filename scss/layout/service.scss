@@ -4,7 +4,10 @@
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
-
+        @media (min-width: 576px) and (max-width: 767px) {  
+            transform:  scale(0.5);
+          
+        }
         &__title{
             margin-bottom: 2rem;
             text-align: center;

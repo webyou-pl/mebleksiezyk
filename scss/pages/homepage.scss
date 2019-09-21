@@ -75,6 +75,7 @@
     transform: translate(-50%, -50%);
     cursor: pointer;
     transition: width 2s;
+    
 }
 
 .main__logo--text{
@@ -88,6 +89,9 @@
     animation-fill-mode: forwards;
     transform: translate(-50%, -50%);
     transition: all 2s;
+
+
+
 
     img{
         animation: movment-img 5s;
@@ -111,6 +115,21 @@
         overflow: hidden;
     }
 
+    @media (min-width: 0px) and (max-width: 575.98px){ 
+        transform: translate(-30%, -60%) scale(0.4);
+        
+    }
+    @media (min-width: 576px) {  
+        transform: translate(-38%, -60%) scale(0.4);
+      
+    }
+    @media (min-width: 768px) {  
+        transform: translate(-55%, -55%) scale(0.5);
+    }
+    @media (min-width: 992px) {  
+        transform: translate(-70%, -65%) scale(0.6);
+    }
+
     @media (min-width: 1200px) and (max-width: 1400px){
         transform: translate(-30%, -50%) scale(0.6);
     }
@@ -132,18 +151,45 @@
     animation-delay: 5s;
     opacity: 0;
 
-    h2{
-        text-transform: uppercase;
-        font-size: 7rem;
-        line-height: 7rem;
-        font-weight: 400;
-        letter-spacing: .05em;
-        color:white;
-        font-family: $Roboto;
-    }
+    
+        h2{
+            text-transform: uppercase;
+            font-size: 7rem;
+            line-height: 7rem;
+            font-weight: 400;
+            letter-spacing: .05em;
+            color:white;
+            font-family: $Roboto;
+            @media (min-width: 576px) {  
+              font-size: 4rem;
+        
+            }
+        }
+ 
+
 	.carousel-item-prev:not(.carousel-item-right), .active.carousel-item-left { // nastepny z dolu
         animation-name: opacity1-0;
         animation-duration: .5s;
-	}
+    }
+    
+
+    @media (min-width: 0px) and (max-width: 575.98px){ 
+        transform: translate(-50%,50%) scale(0.3);
+            top:30%;
+    }
+    @media (min-width: 576px) and (max-width: 1199.98px){  
+        transform: translate(-50%,50%) scale(0.5);
+        padding:0;
+        
+
+    }
+    @media (min-width: 768px) {  
+        transform: translate(-50%,50%) scale(0.6);
+        top:60%;
+    }
+    @media (min-width: 992px) {  
+        transform:translate(-50%,50%) scale(0.7);
+        top:55%;
+    }
 }
 
