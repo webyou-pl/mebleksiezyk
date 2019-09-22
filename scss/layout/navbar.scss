@@ -81,7 +81,7 @@
                     width: 2em;
                     height: 2em;
                 }
-                &:not(.collapsed){
+                &[aria-expanded="true"]{
                     span{
                     position: relative;
                     background: none;
