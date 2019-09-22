@@ -92,3 +92,27 @@ $(document).ready(function() {
     });
 
 });
+
+
+//wyłaczanie menu po kliknieciu.
+const navbarButton = document.getElementById('navbar-menu');
+const targetElementsMenu = document.querySelectorAll("#navbarSupportedContent .nav-link")
+const navbar = document.getElementById('navbar')
+
+if (window.screen.width <= 991) {
+    targetElementsMenu.forEach(element => {
+        element.onclick = function(){
+            navbarButton.click()
+        }
+    })
+
+// wylaczenie przy kliknieciu poza.
+    document.addEventListener("scroll", closeMenu)
+     function closeMenu(){
+        // if(navbarButton.getAttribute('aria-expanded') == 'false'){
+        if(navbarButton.getAttribute("aria-expanded") == 'true'){
+            navbarButton.click()
+        }
+    }
+}
+
