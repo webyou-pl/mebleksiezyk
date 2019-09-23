@@ -75,7 +75,7 @@
     transform: translate(-50%, -50%);
     cursor: pointer;
     transition: width 2s;
-    
+
 }
 
 .main__logo--text{
@@ -119,16 +119,16 @@
         transform: translate(-30%, -60%) scale(0.4);
         
     }
-    @media (min-width: 576px) {  
-        transform: translate(-38%, -60%) scale(0.4);
+    // @media (min-width: 576px) {  
+    //     transform: translate(-38%, -60%) scale(0.4);
       
-    }
-    @media (min-width: 768px) {  
-        transform: translate(-55%, -55%) scale(0.5);
-    }
-    @media (min-width: 992px) {  
-        transform: translate(-70%, -65%) scale(0.6);
-    }
+    // }
+    // @media (min-width: 768px) {  
+    //     transform: translate(-55%, -55%) scale(0.5);
+    // }
+    // @media (min-width: 992px) {  
+    //     transform: translate(-70%, -65%) scale(0.6);
+    // }
 
     @media (min-width: 1200px) and (max-width: 1400px){
         transform: translate(-30%, -50%) scale(0.6);
@@ -160,10 +160,10 @@
             letter-spacing: .05em;
             color:white;
             font-family: $Roboto;
-            @media (min-width: 576px) {  
-              font-size: 4rem;
+            // @media (min-width: 576px) {  
+            //   font-size: 4rem;
         
-            }
+            // }
         }
  
 
@@ -183,13 +183,13 @@
         
 
     }
-    @media (min-width: 768px) {  
-        transform: translate(-50%,50%) scale(0.6);
-        top:60%;
-    }
-    @media (min-width: 992px) {  
-        transform:translate(-50%,50%) scale(0.7);
-        top:55%;
-    }
+    // @media (min-width: 768px) {  
+    //     transform: translate(-50%,50%) scale(0.6);
+    //     top:60%;
+    // }
+    // @media (min-width: 992px) {  
+    //     transform:translate(-50%,50%) scale(0.7);
+    //     top:55%;
+    // }
 }
 
