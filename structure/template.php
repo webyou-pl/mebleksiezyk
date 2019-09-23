@@ -54,7 +54,7 @@ $nav_menu = '
         <a class="navbar-brand" href="#body">
             <img class="" src="images/logo/ksiezyk-meble-logo-vector.svg">
         </a>
-        <a class="navbar-toggler" type="" data-toggle="collapse" data-target="#navbarSupportedContent"
+        <a class="navbar-toggler" type="" id="navbar-menu" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </a>
