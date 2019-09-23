@@ -55,6 +55,18 @@
     }
 }
 
+@keyframes maxheight-rwd{
+    0%{
+        margin-bottom: 50px;
+        max-height: 200px;
+    }
+    100%{
+        margin-bottom: 0;
+        max-height: 40vh;
+    }
+}
+
+
 @keyframes movment {
     0% {
         // transform: translate(-50%, -50%);
@@ -71,6 +83,14 @@
         left: calc(100vw - (#{$logo-size} * 2.5) / 2 - 5rem);
     }
 }
+@keyframes movent-rwd{
+    0% {
+        margin-top: 0px;
+    }
+    100% {
+        margin-top: 50px;
+    }
+}
 
 @keyframes movment-img{
     from{
@@ -78,6 +98,15 @@
     }
     to{
         width: calc(#{$logo-size} * 2.5);
+    }
+}
+
+@keyframes movment-img-rwd{
+    from{
+        width: $logo-size;
+    }
+    to{
+        width: 50vh;
     }
 }
 

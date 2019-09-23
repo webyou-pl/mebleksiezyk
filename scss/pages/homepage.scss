@@ -62,7 +62,9 @@
     animation: fadeOut 4s;
     animation-fill-mode: forwards;
     opacity: 1;
-
+    @media (max-width: 1199px){
+        height: calc(100vh + 0px);
+    }
 }
 
 .main__logo {
@@ -97,6 +99,10 @@
         animation: movment-img 5s;
         animation-fill-mode: forwards;
         transition: width 1s;
+        @media (max-width: 1199px){
+            animation: movment-img-rwd 5s;
+            width: 50vh;
+        }
     }
 
     .main__logo--text{
@@ -113,12 +119,16 @@
         animation-fill-mode: forwards;
         transition: width 1s;
         overflow: hidden;
+        @media (max-width: 1199px){
+            animation: maxheight-rwd 5s;
+            max-height: 40vh;
+        }
     }
 
-    @media (min-width: 0px) and (max-width: 575.98px){ 
-        transform: translate(-30%, -60%) scale(0.4);
+    // @media (min-width: 0px) and (max-width: 575.98px){ 
+    //     transform: translate(-30%, -60%) scale(0.4);
         
-    }
+    // }
     // @media (min-width: 576px) {  
     //     transform: translate(-38%, -60%) scale(0.4);
       
@@ -129,6 +139,13 @@
     // @media (min-width: 992px) {  
     //     transform: translate(-70%, -65%) scale(0.6);
     // }
+    @media (max-width: 1199px){
+        transform: translate(-50%, -50%) scale(1);
+        animation-fill-mode: none;
+        left: 50%;
+        top: 50%;
+        animation: movment-rwd 5s;
+    }
 
     @media (min-width: 1200px) and (max-width: 1400px){
         transform: translate(-30%, -50%) scale(0.6);
@@ -150,7 +167,10 @@
     animation-fill-mode: forwards;
     animation-delay: 5s;
     opacity: 0;
-
+    @media (max-width: 1199px){
+        top: 75%;
+        padding-right: 0;
+    }
     
         h2{
             text-transform: uppercase;
@@ -160,10 +180,9 @@
             letter-spacing: .05em;
             color:white;
             font-family: $Roboto;
-            // @media (min-width: 576px) {  
-            //   font-size: 4rem;
-        
-            // }
+            @media (max-width: 1199px){
+                font-size: 5vh;
+            }
         }
  
 
@@ -173,16 +192,16 @@
     }
     
 
-    @media (min-width: 0px) and (max-width: 575.98px){ 
-        transform: translate(-50%,50%) scale(0.3);
-            top:30%;
-    }
-    @media (min-width: 576px) and (max-width: 1199.98px){  
-        transform: translate(-50%,50%) scale(0.5);
-        padding:0;
+    // @media (min-width: 0px) and (max-width: 575.98px){ 
+    //     transform: translate(-50%,50%) scale(0.3);
+    //         top:30%;
+    // }
+    // @media (min-width: 576px) and (max-width: 1199.98px){  
+    //     transform: translate(-50%,50%) scale(0.5);
+    //     padding:0;
         
 
-    }
+    // }
     // @media (min-width: 768px) {  
     //     transform: translate(-50%,50%) scale(0.6);
     //     top:60%;
