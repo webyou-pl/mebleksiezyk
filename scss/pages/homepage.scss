@@ -124,21 +124,7 @@
             max-height: 40vh;
         }
     }
-
-    // @media (min-width: 0px) and (max-width: 575.98px){ 
-    //     transform: translate(-30%, -60%) scale(0.4);
-        
-    // }
-    // @media (min-width: 576px) {  
-    //     transform: translate(-38%, -60%) scale(0.4);
-      
-    // }
-    // @media (min-width: 768px) {  
-    //     transform: translate(-55%, -55%) scale(0.5);
-    // }
-    // @media (min-width: 992px) {  
-    //     transform: translate(-70%, -65%) scale(0.6);
-    // }
+    
     @media (max-width: 1199px){
         transform: translate(-50%, -50%) scale(1);
         animation-fill-mode: none;
@@ -190,25 +176,6 @@
         animation-name: opacity1-0;
         animation-duration: .5s;
     }
-    
 
-    // @media (min-width: 0px) and (max-width: 575.98px){ 
-    //     transform: translate(-50%,50%) scale(0.3);
-    //         top:30%;
-    // }
-    // @media (min-width: 576px) and (max-width: 1199.98px){  
-    //     transform: translate(-50%,50%) scale(0.5);
-    //     padding:0;
-        
-
-    // }
-    // @media (min-width: 768px) {  
-    //     transform: translate(-50%,50%) scale(0.6);
-    //     top:60%;
-    // }
-    // @media (min-width: 992px) {  
-    //     transform:translate(-50%,50%) scale(0.7);
-    //     top:55%;
-    // }
 }
 
