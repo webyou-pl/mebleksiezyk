@@ -14,10 +14,15 @@ footer#footer{
                 font-size: 3.5rem;
                 line-height: 1.2;
                 letter-spacing: .01em;
+                text-align: center;
                 &:last-of-type{
                     margin-bottom: 0;
                 }
+                @media (min-width: 0px) and (max-width: 575.98px){ 
+                 transform: scale(0.6);
+                }
             }
+       
         }
     }
 }

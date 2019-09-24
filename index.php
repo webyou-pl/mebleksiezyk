@@ -57,12 +57,12 @@
                 <h1>O nas</h1>
             </div>
                     <div class="row onas__row">
-                        <div class="col-sm-12 col-lg-4 d-flex onas__column-1">
+                        <div class="col-sm-12 col-lg-6 col-xl-4 d-flex onas__column-1">
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br><br>
                                 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.<br><br>
                                 In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat.</p>
                         </div>
-                        <div class="col-sm-12 col-lg-4 d-block onas__column-2">
+                        <div class="col-sm-12 col-lg-6 col-xl-4 d-block onas__column-2">
                             <div class="onas__column-2-inside">
                             <h2 class="h3 first">Wyjątkowy dizajn</h2>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet.</p>
@@ -77,7 +77,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-lg-4 d-flex onas__column-3">
+                        <div class="col-sm-12 col-lg-6 col-xl-4 d-flex onas__column-3">
                             <img src="../mebleksiezyk/images/sections/onas/1.jpg">
                         </div>
                     </div>
@@ -301,7 +301,7 @@
                             <?= $logo_svg; ?>
                         </a>
                     </div>
-                    <div class="col-12 col-md-8">
+                    <div class="col-sm-14 col-md-8">
                         <p>tel: <a href="#!">600 334 535</a></p>
                         <p>Email: <a href="#!">mebleksiezyk@gmail.com</a></p>
                     </div>
