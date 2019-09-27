@@ -72,10 +72,11 @@
         }
         .onas__column-3{
             padding-bottom:$distance-holder;
+            display: flex;
+            justify-content: center;
             img{ 
                 max-width: 400px;
                 max-height: 400px;
-
                 
             }
         }
