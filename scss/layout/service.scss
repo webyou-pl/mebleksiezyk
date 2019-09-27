@@ -4,10 +4,6 @@
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
-        @media (min-width: 576px) and (max-width: 767px) {  
-            transform:  scale(0.5);
-          
-        }
         &__title{
             margin-bottom: 2rem;
             text-align: center;
@@ -15,6 +11,21 @@
             display: flex;
             align-items: center;
             overflow: hidden;
+            @media (max-width: 575.98px) {
+                margin-bottom: 0;
+            }
+        }
+
+        &__image{
+            @media (max-width: 991px) {
+                width: 50%;
+            }
+            @media (max-width: 575.98px) { 
+                max-width: 60px;
+            }
+        }
+        @media (max-width: 575.98px) { 
+            margin-bottom: 3rem;
         }
     }
 }

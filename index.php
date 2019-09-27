@@ -95,7 +95,7 @@
             <div class="container">
                 <h2 class="h1">Meble na wymiar</h2>
                 <div class="row">
-                    <div class="col-12 col-md-5 furnituresSize__content">
+                    <div class="col-12 col-lg-5 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
                                 <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/kuchenne.jpg">
@@ -107,7 +107,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 offset-md-7 furnituresSize__content">
+                    <div class="col-12 col-lg-5 offset-lg-7 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
                                 <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/szafy-i-wneki.jpg">
@@ -119,7 +119,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 furnituresSize__content">
+                    <div class="col-12 col-lg-5 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
                                 <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/lazienki.jpg">
@@ -131,7 +131,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 offset-md-7 furnituresSize__content">
+                    <div class="col-12 col-lg-5 offset-lg-7 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
                                 <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/pokoj.jpg">
@@ -143,7 +143,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 furnituresSize__content">
+                    <div class="col-12 col-lg-5 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
                                 <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/przedpokoj.jpg">
@@ -155,7 +155,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 offset-md-7 furnituresSize__content">
+                    <div class="col-12 col-lg-5 offset-lg-7 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
                                 <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/mlodziezowe-i-dzieciece.jpg">
@@ -167,7 +167,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 furnituresSize__content">
+                    <div class="col-12 col-lg-5 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
                                 <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/sypialnia.jpg">
@@ -179,7 +179,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 offset-md-7 furnituresSize__content">
+                    <div class="col-12 col-lg-5 offset-lg-7 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
                                 <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/dla-firm.jpg">
@@ -191,7 +191,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 furnituresSize__content">
+                    <div class="col-12 col-lg-5 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
                                 <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/pozostale.jpg">
@@ -244,42 +244,42 @@
             <div class="container">
                 <h2 class="h1">Przykładowe realizacje</h2>
                 <div class="gallery row">
-                    <div class="col-12 col-md-5">
+                    <div class="col-12 col-lg-5">
                         <div class="gallery__item">
                             <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/pozostale.jpg">
                                 <img src="images/sections/meble-na-wymiar/pozostale.jpg" alt="" class="">
                             </a>
                         </div>    
                     </div>
-                    <div class="col-12 col-md-2">
+                    <div class="col-12 col-lg-2">
                         <div class="gallery__item">
                             <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/kuchenne.jpg">
                                 <img src="images/sections/meble-na-wymiar/kuchenne.jpg" alt="" class="">
                             </a>
                         </div>    
                     </div>
-                    <div class="col-12 col-md-5">
+                    <div class="col-12 col-lg-5">
                         <div class="gallery__item">
                             <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/lazienki.jpg">
                                 <img src="images/sections/meble-na-wymiar/lazienki.jpg" alt="" class="">
                             </a>
                         </div>    
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-lg-4">
                         <div class="gallery__item">
                             <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/lazienki.jpg">
                                 <img src="images/sections/meble-na-wymiar/lazienki.jpg" alt="" class="">
                             </a>
                         </div>    
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-lg-3">
                         <div class="gallery__item">
                             <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/pozostale.jpg">
                                 <img src="images/sections/meble-na-wymiar/pozostale.jpg" alt="" class="aaa">
                             </a>
                         </div>    
                     </div>
-                    <div class="col-12 col-md-5">
+                    <div class="col-12 col-lg-5">
                         <div class="gallery__item">
                             <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/kuchenne.jpg">
                                 <img src="images/sections/meble-na-wymiar/kuchenne.jpg" alt="" class="">
@@ -296,12 +296,12 @@
         <footer id="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-lg-4">
                         <a href="#!">
                             <?= $logo_svg; ?>
                         </a>
                     </div>
-                    <div class="col-sm-14 col-md-8">
+                    <div class="col-sm-14 col-lg-8">
                         <p>tel: <a href="#!">600 334 535</a></p>
                         <p>Email: <a href="#!">mebleksiezyk@gmail.com</a></p>
                     </div>

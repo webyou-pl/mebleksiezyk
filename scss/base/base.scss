@@ -9,6 +9,16 @@ body section:not(.main),
 body main {
     padding-top: calc(#{$main-padding} * 1.5);
 	padding-bottom: calc(#{$main-padding} * 1.5);
+
+	@media (max-width: 1199.98px) {
+		padding-top: calc(#{$main-padding} / 1.5);
+		padding-bottom: calc(#{$main-padding} / 1.5);
+	 }
+}
+html body main{
+	@media (max-width: 1199.98px) { 
+		padding-bottom: 0;
+	 }
 }
 
 footer#footer{

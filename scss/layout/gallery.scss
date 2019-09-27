@@ -10,5 +10,13 @@
         overflow: hidden;
         height: 30rem;
         margin-bottom: 1rem;
+        a, img{
+            @media (max-width: 991.98px) {
+                width: 100%;
+            }
+        }
+        @media (max-width: 575.98px) { 
+            height: auto;
+        }
     }
 }

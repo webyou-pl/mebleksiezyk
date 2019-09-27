@@ -18,8 +18,15 @@ footer#footer{
                 &:last-of-type{
                     margin-bottom: 0;
                 }
-                @media (min-width: 0px) and (max-width: 575.98px){ 
-                 transform: scale(0.6);
+                @media (max-width: 1199.98px) {
+                    font-size: 2.5rem;
+                }
+                @media (max-width: 991px) {
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
+                }
+                @media (max-width: 575.98px) { 
+                    font-size: 1.9rem;
                 }
             }
        

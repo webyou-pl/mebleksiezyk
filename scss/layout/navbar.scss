@@ -58,10 +58,13 @@
     //Navar scroll
     &.scroll-nav{
         background: rgba(black, .6);
+        @media (max-width: 991.98px) {
+            background: rgba(black, .75);
+        }
     }
 
     @media (max-width: 991.98px) {
-        background: rgba(black, .6);
+        background: rgba(black, .75);
         .container{
             justify-content: center;
             padding-top: 20px;
