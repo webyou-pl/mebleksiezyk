@@ -61,7 +61,7 @@
     background-size:cover;
     animation: fadeOut 4s;
     animation-fill-mode: forwards;
-    opacity: 1;
+    // opacity: 1;
     @media (max-width: 1199px){
         height: calc(100vh + 50px);
     }
