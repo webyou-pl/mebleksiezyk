@@ -98,7 +98,7 @@
                     <div class="col-12 col-lg-5 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
-                                <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/kuchenne.jpg">
+                                <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/kuchenne-big.jpg">
                                     <img src="images/sections/meble-na-wymiar/kuchenne.jpg" alt="" class="img-fluid">
                                 </a>
                             </div>
@@ -110,7 +110,7 @@
                     <div class="col-12 col-lg-5 offset-lg-7 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
-                                <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/szafy-i-wneki.jpg">
+                                <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/szafy-i-wneki-big.jpg">
                                     <img src="images/sections/meble-na-wymiar/szafy-i-wneki.jpg" alt="" class="img-fluid">
                                 </a>
                             </div>
@@ -122,7 +122,7 @@
                     <div class="col-12 col-lg-5 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
-                                <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/lazienki.jpg">
+                                <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/lazienki-big.jpg">
                                     <img src="images/sections/meble-na-wymiar/lazienki.jpg" alt="" class="img-fluid">
                                 </a>
                             </div>
@@ -134,7 +134,7 @@
                     <div class="col-12 col-lg-5 offset-lg-7 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
-                                <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/pokoj.jpg">
+                                <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/pokoj-big.jpg">
                                     <img src="images/sections/meble-na-wymiar/pokoj.jpg" alt="" class="img-fluid">
                                 </a>
                             </div>
@@ -146,7 +146,7 @@
                     <div class="col-12 col-lg-5 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
-                                <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/przedpokoj.jpg">
+                                <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/przedpokoj-big.jpg">
                                     <img src="images/sections/meble-na-wymiar/przedpokoj.jpg" alt="" class="img-fluid">
                                 </a>
                             </div>
@@ -158,7 +158,7 @@
                     <div class="col-12 col-lg-5 offset-lg-7 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
-                                <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/mlodziezowe-i-dzieciece.jpg">
+                                <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/mlodziezowe-i-dzieciece-big.jpg">
                                     <img src="images/sections/meble-na-wymiar/mlodziezowe-i-dzieciece.jpg" alt="" class="img-fluid">
                                 </a>
                             </div>
@@ -170,7 +170,7 @@
                     <div class="col-12 col-lg-5 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
-                                <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/sypialnia.jpg">
+                                <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/sypialnia-big.jpg">
                                     <img src="images/sections/meble-na-wymiar/sypialnia.jpg" alt="" class="img-fluid">
                                 </a>
                             </div>
@@ -182,7 +182,7 @@
                     <div class="col-12 col-lg-5 offset-lg-7 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
-                                <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/dla-firm.jpg">
+                                <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/dla-firm-big.jpg">
                                     <img src="images/sections/meble-na-wymiar/dla-firm.jpg" alt="" class="img-fluid">
                                 </a>
                             </div>
@@ -194,7 +194,7 @@
                     <div class="col-12 col-lg-5 furnituresSize__content">
                         <div class="furnituresSize__box">
                             <div class="furnituresSize__image">
-                                <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/pozostale.jpg">
+                                <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/pozostale-big.jpg">
                                     <img src="images/sections/meble-na-wymiar/pozostale.jpg" alt="" class="img-fluid">
                                 </a>
                             </div>
@@ -246,42 +246,42 @@
                 <div class="gallery row">
                     <div class="col-12 col-lg-5">
                         <div class="gallery__item">
-                            <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/pozostale.jpg">
+                            <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/pozostale-big.jpg">
                                 <img src="images/sections/meble-na-wymiar/pozostale.jpg" alt="" class="">
                             </a>
                         </div>    
                     </div>
                     <div class="col-12 col-lg-2">
                         <div class="gallery__item">
-                            <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/kuchenne.jpg">
+                            <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/kuchenne-big.jpg">
                                 <img src="images/sections/meble-na-wymiar/kuchenne.jpg" alt="" class="">
                             </a>
                         </div>    
                     </div>
                     <div class="col-12 col-lg-5">
                         <div class="gallery__item">
-                            <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/lazienki.jpg">
+                            <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/lazienki-big.jpg">
                                 <img src="images/sections/meble-na-wymiar/lazienki.jpg" alt="" class="">
                             </a>
                         </div>    
                     </div>
                     <div class="col-12 col-lg-4">
                         <div class="gallery__item">
-                            <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/lazienki.jpg">
+                            <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/lazienki-big.jpg">
                                 <img src="images/sections/meble-na-wymiar/lazienki.jpg" alt="" class="">
                             </a>
                         </div>    
                     </div>
                     <div class="col-12 col-lg-3">
                         <div class="gallery__item">
-                            <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/pozostale.jpg">
+                            <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/pozostale-big.jpg">
                                 <img src="images/sections/meble-na-wymiar/pozostale.jpg" alt="" class="aaa">
                             </a>
                         </div>    
                     </div>
                     <div class="col-12 col-lg-5">
                         <div class="gallery__item">
-                            <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/kuchenne.jpg">
+                            <a class="popup-gallery__item" href="images/sections/meble-na-wymiar/kuchenne-big.jpg">
                                 <img src="images/sections/meble-na-wymiar/kuchenne.jpg" alt="" class="">
                             </a>
                         </div>    

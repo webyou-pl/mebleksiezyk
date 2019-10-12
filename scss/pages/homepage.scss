@@ -53,15 +53,19 @@
 }
 
 .main-background {
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba($brown, .6)),to(rgba($brown, .6))),url("../images/backgrounds/main/shutterstock.jpg");
+    background-image: -o-linear-gradient(rgba($brown, .6),rgba($brown, .6)),url("../images/backgrounds/main/shutterstock.jpg");
     background-image: linear-gradient(rgba($brown, .6),rgba($brown, .6)),url("../images/backgrounds/main/shutterstock.jpg");
     height: calc(100vh + 100px);
     z-index: 1;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    animation: fadeOut 4s;
-    animation-fill-mode: forwards;
-    // opacity: 1;
+    -webkit-animation: fadeOut 4s;
+            animation: fadeOut 4s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+
     @media (max-width: 1199px){
         height: calc(100vh + 50px);
     }
@@ -87,13 +91,17 @@
 .main__logo-after {
     z-index: 90;
     position: absolute;
-    animation: movment 5s;
-    animation-fill-mode: forwards;
-    transform: translate(-50%, -50%);
+    left: 80%;
+    -webkit-animation: movment 5s;
+            animation: movment 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
     transition: all 2s;
-
-
-
 
     img{
         animation: movment-img 5s;
@@ -120,17 +128,22 @@
         transition: width 1s;
         overflow: hidden;
         @media (max-width: 1199px){
+            -webkit-animation: maxheight-rwd 5s;
             animation: maxheight-rwd 5s;
             max-height: 40vh;
         }
     }
     
     @media (max-width: 1199px){
+        -webkit-transform: translate(-50%, -50%) scale(1);
+        -ms-transform: translate(-50%, -50%) scale(1);
         transform: translate(-50%, -50%) scale(1);
-        animation-fill-mode: none;
+        -webkit-animation-fill-mode: none;
+                animation-fill-mode: none;
         left: 50%;
         top: 50%;
-        animation: movment-rwd 5s;
+        -webkit-animation: movment-rwd 5s;
+                animation: movment-rwd 5s;
     }
 
     @media (min-width: 1200px) and (max-width: 1400px){
